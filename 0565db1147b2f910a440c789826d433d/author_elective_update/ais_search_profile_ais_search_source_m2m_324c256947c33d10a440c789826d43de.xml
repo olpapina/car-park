@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="DELETE">
+        <profile display_value="car-park/my-cars Search Profile">694ce169c8c33d102da166334b94723b</profile>
+        <search_source display_value="Сar accidents">3312ce28478bf510a440c789826d43af</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 11:08:55</sys_created_on>
+        <sys_id>324c256947c33d10a440c789826d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>car-park/my-cars Search Profile.Сar accidents</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_324c256947c33d10a440c789826d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 11:08:55</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>ais_search_profile_ais_search_source_m2m_324c256947c33d10a440c789826d43de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m"><ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE"><profile display_value="car-park/my-cars Search Profile">694ce169c8c33d102da166334b94723b</profile><search_source display_value="Сar accidents">3312ce28478bf510a440c789826d43af</search_source><sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 11:08:55</sys_created_on><sys_id>324c256947c33d10a440c789826d43de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>car-park/my-cars Search Profile.Сar accidents</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>ais_search_profile_ais_search_source_m2m_324c256947c33d10a440c789826d43de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 11:08:55</sys_updated_on></ais_search_profile_ais_search_source_m2m></record_update>]]></payload>
+        <payload_hash>-1899582989</payload_hash>
+        <record_name>car-park/my-cars Search Profile.Сar accidents</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 11:08:55</sys_created_on>
+        <sys_id>f64c256947c33d10a440c789826d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5890d1b30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 11:08:55</sys_updated_on>
+        <type>AI Search Search Profile Search Source M</type>
+        <update_guid>3e4c2569f4c33d1013bb87866ae961e3</update_guid>
+        <update_guid_history>3e4c2569f4c33d1013bb87866ae961e3:-1899582989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="car-park/my-cars Search Profile.Сar accidents">90b7c7f5474f7d10a440c789826d433b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 12:26:43</sys_created_on>
+        <sys_db_object display_value="" name="ais_search_profile_ais_search_source_m2m">ais_search_profile_ais_search_source_m2m</sys_db_object>
+        <sys_id>76499bbe3d4a46e09211dd156914f590</sys_id>
+        <sys_metadata>324c256947c33d10a440c789826d43de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>car-park/my-cars Search Profile.Сar accidents</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_324c256947c33d10a440c789826d43de</sys_update_name>
+        <sys_update_version display_value="ais_search_profile_ais_search_source_m2m_324c256947c33d10a440c789826d43de">f64c256947c33d10a440c789826d43e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 12:26:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

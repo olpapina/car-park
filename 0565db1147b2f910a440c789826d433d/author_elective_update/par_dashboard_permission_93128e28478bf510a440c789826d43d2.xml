@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Car Park">96124e28bc8bf510227f7065e59b798f</dashboard>
+        <group/>
+        <role display_value="x_1151148_car_park.traffic police officer" name="x_1151148_car_park.traffic police officer">9965db1147b2f910a440c789826d4346</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 10:10:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>93128e28478bf510a440c789826d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>96124e28bc8bf510227f7065e59b798f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>par_dashboard_permission_93128e28478bf510a440c789826d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 10:10:20</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>par_dashboard_permission_93128e28478bf510a440c789826d43d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>false</can_share><can_write>false</can_write><dashboard display_value="Car Park">96124e28bc8bf510227f7065e59b798f</dashboard><group/><role display_value="x_1151148_car_park.traffic police officer" name="x_1151148_car_park.traffic police officer">9965db1147b2f910a440c789826d4346</role><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-08 10:10:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>93128e28478bf510a440c789826d43d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>96124e28bc8bf510227f7065e59b798f</sys_name><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>par_dashboard_permission_93128e28478bf510a440c789826d43d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-08 10:10:20</sys_updated_on><user/></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>1667413321</payload_hash>
+        <record_name>96124e28bc8bf510227f7065e59b798f</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 10:10:20</sys_created_on>
+        <sys_id>13128e28478bf510a440c789826d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c48e81b8d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 10:10:20</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>57128e281c8bf510b02d73f3609ac8d3</update_guid>
+        <update_guid_history>57128e281c8bf510b02d73f3609ac8d3:1667413321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Car Park">0b37ed6147c33d10a440c789826d43ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 10:46:49</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>00de1401418f4380801a214aa7f4e010</sys_id>
+        <sys_metadata>93128e28478bf510a440c789826d43d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>96124e28bc8bf510227f7065e59b798f</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_93128e28478bf510a440c789826d43d2</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_93128e28478bf510a440c789826d43d2">13128e28478bf510a440c789826d43d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 10:46:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

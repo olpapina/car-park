@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>ih_import_FD4bc0383531fa3d10aa306a715e58a7e6</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0565db1147b2f910a440c789826d433d</scope_name>
+        <serialized_content>{"FlowDesigner:ih_import_FD4bc0383531fa3d10aa306a715e58a7e6":{"u_toyotа_model":"String","u_toyotа_model.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Toyotа model\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:ih_import_FD4bc0383531fa3d10aa306a715e58a7e6.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"ih_import_FD4bc0383531fa3d10aa306a715e58a7e6\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:11:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fc0383547fa3d10a440c789826d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ih_import_FD4bc0383531fa3d10aa306a715e58a7e6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_complex_object_4fc0383547fa3d10a440c789826d43e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:11:46</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_complex_object_4fc0383547fa3d10a440c789826d43e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object"><sys_complex_object action="INSERT_OR_UPDATE"><label/><name>ih_import_FD4bc0383531fa3d10aa306a715e58a7e6</name><namespace>FlowDesigner</namespace><scope_name>0565db1147b2f910a440c789826d433d</scope_name><serialized_content>{"FlowDesigner:ih_import_FD4bc0383531fa3d10aa306a715e58a7e6":{"u_toyotа_model":"String","u_toyotа_model.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Toyotа model\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:ih_import_FD4bc0383531fa3d10aa306a715e58a7e6.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"ih_import_FD4bc0383531fa3d10aa306a715e58a7e6\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content><sys_class_name>sys_complex_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 15:11:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4fc0383547fa3d10a440c789826d43e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ih_import_FD4bc0383531fa3d10aa306a715e58a7e6</sys_name><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_complex_object_4fc0383547fa3d10a440c789826d43e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 15:11:46</sys_updated_on><type>complex_object_schema</type></sys_complex_object></record_update>]]></payload>
+        <payload_hash>1655373887</payload_hash>
+        <record_name>ih_import_FD4bc0383531fa3d10aa306a715e58a7e6</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:11:46</sys_created_on>
+        <sys_id>8bc0383547fa3d10a440c789826d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1ba2d7e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:11:46</sys_updated_on>
+        <type>Complex Object</type>
+        <update_guid>cfc03835aafa3d10ed286307ba7dfce7</update_guid>
+        <update_guid_history>cfc03835aafa3d10ed286307ba7dfce7:1655373887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-01 07:30:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_complex_object">sys_complex_object</sys_db_object>
+        <sys_id>1005aee986594a7c87d9a708702b1810</sys_id>
+        <sys_metadata>4fc0383547fa3d10a440c789826d43e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ih_import_FD4bc0383531fa3d10aa306a715e58a7e6</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_complex_object_4fc0383547fa3d10a440c789826d43e6</sys_update_name>
+        <sys_update_version display_value="sys_complex_object_4fc0383547fa3d10a440c789826d43e6">8bc0383547fa3d10a440c789826d43e8</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-01 07:30:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

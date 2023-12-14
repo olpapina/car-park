@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_1151148_car_park.admin,x_1151148_car_park.service manager,x_1151148_car_park.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 13:44:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1c2890f47363110a440c789826d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Events</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_app_application_d1c2890f47363110a440c789826d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 13:44:32</sys_updated_on>
+        <title>Service Events</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_app_application_d1c2890f47363110a440c789826d43c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_1151148_car_park.admin,x_1151148_car_park.service manager,x_1151148_car_park.user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-03 13:44:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d1c2890f47363110a440c789826d43c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Events</sys_name><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_app_application_d1c2890f47363110a440c789826d43c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-03 13:44:32</sys_updated_on><title>Service Events</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-2047212705</payload_hash>
+        <record_name>Service Events</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 13:44:32</sys_created_on>
+        <sys_id>dc33814f47363110a440c789826d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c2fec6ba60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 13:44:32</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>1433814f7c3631104d6bde62a20fff25</update_guid>
+        <update_guid_history>1433814f7c3631104d6bde62a20fff25:-2047212705</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Events">970585cf47363110a440c789826d430d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 13:52:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>b271f59124a442aebe8274f3b1ff29c9</sys_id>
+        <sys_metadata>d1c2890f47363110a440c789826d43c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Events</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_app_application_d1c2890f47363110a440c789826d43c7</sys_update_name>
+        <sys_update_version display_value="sys_app_application_d1c2890f47363110a440c789826d43c7">dc33814f47363110a440c789826d4325</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 13:52:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_1151148_car_park.service manager" name="x_1151148_car_park.service manager">1165db1147b2f910a440c789826d434c</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:48:19</sys_created_on>
+        <sys_id>b36ba87d47ba3d10a440c789826d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_1151148_car_park.service manager</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_user_role_contains_b36ba87d47ba3d10a440c789826d4336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:48:19</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

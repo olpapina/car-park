@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e9f61b9147b2f910a440c789826d4392" label="Cars" max_length="40" name="x_1151148_car_park_cars" type="collection">
+        <element label="Brand" mandatory="true" max_length="40" name="brand" reference="x_1151148_car_park_car_brand" type="reference" use_dependent_field="true"/>
+        <element dependent="brand" dependent_on_field="brand" label="Model" mandatory="true" max_length="40" name="model" reference="x_1151148_car_park_car_models" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="VIN number" mandatory="true" max_length="17" name="number" type="string"/>
+        <element label="Owner" max_length="40" name="owner" reference="sys_user" type="reference"/>
+        <element label="Year of manufacture" max_length="40" name="year_of_manufacture" type="glide_date"/>
+    </element>
+</database>

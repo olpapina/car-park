@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 10:07:51</sys_created_on>
+        <sys_id>de91100347723110a440c789826d43f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1151148_car_park_ar_accident.x_1151148_car_park._car_accident_user</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_security_acl display_value="x_1151148_car_park_ar_accident">9291100347723110a440c789826d43f1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_de91100347723110a440c789826d43f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 10:11:33</sys_updated_on>
+        <sys_user_role display_value="x_1151148_car_park._car_accident_user" name="x_1151148_car_park._car_accident_user">d07254cb47323110a440c789826d4369</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_security_acl_role_de91100347723110a440c789826d43f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-03 10:07:51</sys_created_on><sys_id>de91100347723110a440c789826d43f3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1151148_car_park_ar_accident.x_1151148_car_park._car_accident_user</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_security_acl display_value="x_1151148_car_park_ar_accident">9291100347723110a440c789826d43f1</sys_security_acl><sys_update_name>sys_security_acl_role_de91100347723110a440c789826d43f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-03 10:11:33</sys_updated_on><sys_user_role display_value="x_1151148_car_park._car_accident_user" name="x_1151148_car_park._car_accident_user">d07254cb47323110a440c789826d4369</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-154134256</payload_hash>
+        <record_name>x_1151148_car_park_ar_accident.x_1151148_car_park._car_accident_user</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 10:11:33</sys_created_on>
+        <sys_id>e072d04347723110a440c789826d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c2f296ef80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 10:11:33</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e872d043527231102da44eb2b74973d5</update_guid>
+        <update_guid_history>e872d043527231102da44eb2b74973d5:-154134256,9a91100361723110ed53c839782a0ef5:788974766</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1151148_car_park_ar_accident.x_1151148_car_park._car_accident_user">7adc548f47723110a440c789826d43ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 10:57:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>780c3c9eb0874dceac3cec00f0b56ba4</sys_id>
+        <sys_metadata>de91100347723110a440c789826d43f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1151148_car_park_ar_accident.x_1151148_car_park._car_accident_user</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent display_value="x_1151148_car_park_ar_accident">9291100347723110a440c789826d43f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_de91100347723110a440c789826d43f3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_de91100347723110a440c789826d43f3">e072d04347723110a440c789826d43d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 10:57:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <can_iterate>false</can_iterate>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:30:00</entered_time>
+        <max_drift/>
+        <name>Find  rejected records in Service Events</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-12-13 21:26:52</run_start>
+        <run_time>1970-01-01 00:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[  // Query the database for Service Events records with State field == Rejected
+  var rejectedEvents = new GlideRecord("x_1151148_car_park_service_events");
+  rejectedEvents.addQuery('state','=',3);
+    
+  rejectedEvents.query();
+  // Write a log message for each found rejected events.
+
+  while(rejectedEvents.next()){
+    gs.info("Rejected Service event record = " + rejectedEvents.summary);
+    rejectedEvents.deleteRecord();
+  }]]></script>
+        <source_filter/>
+        <source_table>cmdb_ci_appl_dot_net</source_table>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 21:46:27</sys_created_on>
+        <sys_id>2aec865247cffd10a440c789826d43f4</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Find  rejected records in Service Events</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sysauto_script_2aec865247cffd10a440c789826d43f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 22:18:33</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

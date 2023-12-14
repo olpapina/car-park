@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:48:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2e6b287d36ba3d10aae0e1476cab0dbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>m2m_app_config_theme_2e6b287d36ba3d10aae0e1476cab0dbc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:48:15</sys_updated_on>
+        <theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme>
+        <ux_app_configuration display_value="">e26b287db6ba3d10795903e96d8fedbf</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>m2m_app_config_theme_2e6b287d36ba3d10aae0e1476cab0dbc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 14:48:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2e6b287d36ba3d10aae0e1476cab0dbc</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>m2m_app_config_theme_2e6b287d36ba3d10aae0e1476cab0dbc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 14:48:15</sys_updated_on><theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme><ux_app_configuration display_value="">e26b287db6ba3d10795903e96d8fedbf</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>683645706</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c3ae1a0347223110a440c789826d437e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-11-21 10:08:31</sys_created_on>
+        <sys_id>caab60bd47ba3d10a440c789826d4380</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18bf15a55180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Theme</type>
+        <update_guid>8aab60bd9eba3d100e98785f5d720d80</update_guid>
+        <update_guid_history>8aab60bd9eba3d100e98785f5d720d80:683645706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">42ab60bd47ba3d10a440c789826d4382</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:49:18</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>43ece7e466dc4fa2adf23b8942337ea1</sys_id>
+        <sys_metadata>2e6b287d36ba3d10aae0e1476cab0dbc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_2e6b287d36ba3d10aae0e1476cab0dbc</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_2e6b287d36ba3d10aae0e1476cab0dbc">caab60bd47ba3d10a440c789826d4380</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:49:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

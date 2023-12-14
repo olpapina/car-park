@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b391321a477afd10a440c789826d43b0" label="Service Events" max_length="40" name="x_1151148_car_park_service_events" type="collection">
+        <element dependent="car.owner" dependent_on_field="car.owner" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Car VIN" mandatory="true" max_length="32" name="car" reference="x_1151148_car_park_cars" type="reference"/>
+        <element label="Description" max_length="150" name="description" type="string"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Requested for" max_length="40" name="requested_for" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10; // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" default="Self" label="Self/Service work" mandatory="true" max_length="40" name="self_service_work" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Self" sequence="0" value="Self"/>
+                <element inactive_on_update="false" label="Service" sequence="1" value="Service"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="javascript:ChangeModel.getDefaultTypeValue()" dynamic_default_value="d1442bd4c3c02010b1343f52c1d3aea5" label="State" max_length="40" name="state" type="choice" use_dynamic_default="true">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting approval" sequence="0" value="14"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="15"/>
+                <element inactive_on_update="false" label="Requested" sequence="2" value="13"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element display="true" label="Summary" max_length="40" name="summary" type="string"/>
+        <element label="When performed" mandatory="true" max_length="40" name="when_performed" type="glide_date_time"/>
+        <element label="When repeated" max_length="40" name="when_repeated" type="glide_date_time"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="car"/>
+        </index>
+        <index name="index3">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

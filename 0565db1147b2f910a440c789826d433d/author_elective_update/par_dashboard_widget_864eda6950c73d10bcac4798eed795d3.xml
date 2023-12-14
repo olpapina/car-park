@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0a4eda694ec73d10b0d423e47383f7d4</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Cars","sourceType":"table","tableOrViewName":"x_1151148_car_park_cars","filterQuery":"","id":"dGFibGV0YXNrMTY1Mzg0MjI1MTUxMQ==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Critical Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV0YXNrMTY1Mzg0MjI1MTUxMQ==","id":"ZEdGaWJHVjBZWE5yTVRZMU16ZzBNakkxTVRVeE1RPT0xNjUzODQyMjUyNzkw","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"configVersion":"23.0.0-ci-SNAPSHOT","filterConfigurations":[]}</component_props>
+        <h>9</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 14:47:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>864eda6950c73d10bcac4798eed795d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>par_dashboard_widget_864eda6950c73d10bcac4798eed795d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 14:47:22</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>32</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>par_dashboard_widget_864eda6950c73d10bcac4798eed795d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0a4eda694ec73d10b0d423e47383f7d4</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Cars","sourceType":"table","tableOrViewName":"x_1151148_car_park_cars","filterQuery":"","id":"dGFibGV0YXNrMTY1Mzg0MjI1MTUxMQ==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Critical Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV0YXNrMTY1Mzg0MjI1MTUxMQ==","id":"ZEdGaWJHVjBZWE5yTVRZMU16ZzBNakkxTVRVeE1RPT0xNjUzODQyMjUyNzkw","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"configVersion":"23.0.0-ci-SNAPSHOT","filterConfigurations":[]}</component_props><h>9</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 14:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>864eda6950c73d10bcac4798eed795d3</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>par_dashboard_widget_864eda6950c73d10bcac4798eed795d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 14:47:22</sys_updated_on><visualization/><w>16</w><widget_props/><x>32</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-512052238</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 14:47:22</sys_created_on>
+        <sys_id>b24e1e6947c73d10a440c789826d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5958d35d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 14:47:22</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>ba4e1e691fc73d10a3a726525cd59dfa</update_guid>
+        <update_guid_history>ba4e1e691fc73d10a3a726525cd59dfa:-512052238,324e1e6917c73d1051b56219ac7243ed:641327108</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0622a6ad47c73d10a440c789826d432c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 15:04:15</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>6460d14356f9482aad483eadfb5c1684</sys_id>
+        <sys_metadata>864eda6950c73d10bcac4798eed795d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_864eda6950c73d10bcac4798eed795d3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_864eda6950c73d10bcac4798eed795d3">b24e1e6947c73d10a440c789826d43fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 15:04:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

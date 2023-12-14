@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <can_iterate>false</can_iterate>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Generate Random Cars Records</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-12-05 13:26:18</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[//Number of Cars records to create
+var recordsToMake = 1;
+
+// // Declare and initialize variables used in the script
+var genCarRec;
+var modelTab;
+var i;
+var tableName = "x_1151148_car_park_cars";
+var pickUser;
+var pickModel;
+var pickDate;
+var brandModelArray = [];
+
+var ownerArray = [{
+	"name": "Allyson Gillispie"
+}, {
+	"name": "Cary Mccamey"
+}, {
+	"name": "Buster Wubbel"
+}, {
+	"name": "Celia Slavin"
+}, {
+	"name": "Abraham Lincoln"
+}, {
+	"name": "Chad Miklas"
+}, {
+	"name": "Callie Leboeuf"
+}];
+
+modelTab = new GlideRecord("x_1151148_car_park_car_models");
+modelTab.addActiveQuery();
+modelTab.query();
+while (modelTab.next()) { 
+	brandModelArray.push({"model": modelTab.getDisplayValue(), "brand": modelTab.brand.getDisplayValue()});
+	modelTab.update();
+}
+
+//For loop to create records
+for (i = 0; i < recordsToMake; i++) {
+
+	//Create an empty record for the Cars table
+	genCarRec = new GlideRecord(tableName);
+	genCarRec.newRecord();
+
+	genCarRec.setValue("number", (Math.floor(Math.random() * (99999 - 10000 + 1) + 1000).toString()) + "MM" + (Math.floor(Math.random() * 1).toString()) + "D" +(Math.floor(Math.random() * (99999 - 10000 + 1) + 10000).toString()) + "BY" + (Math.floor(Math.random() * 1).toString()));
+
+	//Set the Brand and Model field values
+	pickModel = (Math.floor(Math.random() * 2));
+	genCarRec.brand.setDisplayValue(brandModelArray[pickModel].brand);
+	genCarRec.model.setDisplayValue(brandModelArray[pickModel].model);
+
+	//Set the Owner field value (reference) by selecting a random user from ownerArray.
+	pickUser = (Math.floor(Math.random() * 7));
+	genCarRec.owner.setDisplayValue(ownerArray[pickUser].name);
+
+	//Set the Year of manufacture 10 year ago
+	var rightNow = new GlideDateTime();
+	pickDate = (Math.floor(Math.random() * -10));
+	rightNow.addYearsUTC(pickDate);
+	genCarRec.setValue("year_of_manufacture", rightNow);
+
+	//Insert the new Car record into the table
+	genCarRec.insert();
+}
+
+gs.info("Cars records were generated");]]></script>
+        <source_filter table="cmdb_ci_appl_dot_net">null<item endquery="false" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </source_filter>
+        <source_table>cmdb_ci_appl_dot_net</source_table>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 14:03:05</sys_created_on>
+        <sys_id>7c32dfa74776f110a440c789826d435d</sys_id>
+        <sys_mod_count>99</sys_mod_count>
+        <sys_name>Generate Random Cars Records</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sysauto_script_7c32dfa74776f110a440c789826d435d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 08:37:45</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

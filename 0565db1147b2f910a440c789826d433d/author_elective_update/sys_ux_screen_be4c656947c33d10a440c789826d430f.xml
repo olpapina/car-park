@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
+        <macroponent/>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Cars Record Page</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=x_1151148_car_park_cars</screen_condition>
+        <screen_type display_value="Record">294ce16982c33d10677c95a844d5b730</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 11:08:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be4c656947c33d10a440c789826d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cars Record Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_screen_be4c656947c33d10a440c789826d430f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 11:08:55</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=be4c656947c33d10a440c789826d430f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ux_screen_be4c656947c33d10a440c789826d430f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config/><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings>[
+    
+]</event_mappings><macroponent/><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>Cars Record Page</name><order>100</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition>table=x_1151148_car_park_cars</screen_condition><screen_type display_value="Record">294ce16982c33d10677c95a844d5b730</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 11:08:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>be4c656947c33d10a440c789826d430f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cars Record Page</sys_name><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_ux_screen_be4c656947c33d10a440c789826d430f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 11:08:55</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=be4c656947c33d10a440c789826d430f"/></record_update>]]></payload>
+        <payload_hash>1396952056</payload_hash>
+        <record_name>Cars Record Page</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 12:24:27</sys_created_on>
+        <sys_id>3a274fb5474f7d10a440c789826d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5dfc54a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 12:24:27</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>ba4c656922c33d1068004fadc0912911</update_guid>
+        <update_guid_history>ba4c656922c33d1068004fadc0912911:1089992659,ba4c656922c33d1068004fadc0912911:1089992659,ba4c656922c33d1068004fadc0912911:1089992659</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 12:27:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>3c940bf96a8e4134aed206fff97e3081</sys_id>
+        <sys_metadata>be4c656947c33d10a440c789826d430f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cars Record Page</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_be4c656947c33d10a440c789826d430f</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_be4c656947c33d10a440c789826d430f">3a274fb5474f7d10a440c789826d4351</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 12:27:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

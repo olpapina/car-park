@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Car Park_menu_config</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 10:55:44</sys_created_on>
+        <sys_id>f5492d2547c33d10a440c789826d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Park_menu_config</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_f5492d2547c33d10a440c789826d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 10:55:44</sys_updated_on>
+    </sys_ux_list_menu_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ux_list_menu_config_f5492d2547c33d10a440c789826d4323</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config"><sys_ux_list_menu_config action="INSERT_OR_UPDATE"><active>true</active><description/><name>Car Park_menu_config</name><sys_class_name>sys_ux_list_menu_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 10:55:44</sys_created_on><sys_id>f5492d2547c33d10a440c789826d4323</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Car Park_menu_config</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_ux_list_menu_config_f5492d2547c33d10a440c789826d4323</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 10:55:44</sys_updated_on></sys_ux_list_menu_config></record_update>]]></payload>
+        <payload_hash>-1441553769</payload_hash>
+        <record_name>Car Park_menu_config</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 10:55:44</sys_created_on>
+        <sys_id>75492d2547c33d10a440c789826d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5884c1480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 10:55:44</sys_updated_on>
+        <type>UX List Menu Configuration</type>
+        <update_guid>b9492d256dc33d10324a95c798021924</update_guid>
+        <update_guid_history>b9492d256dc33d10324a95c798021924:-1441553769</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 10:59:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_menu_config">sys_ux_list_menu_config</sys_db_object>
+        <sys_id>0488423fa69f47dc80228565ee1fde64</sys_id>
+        <sys_metadata>f5492d2547c33d10a440c789826d4323</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Park_menu_config</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ux_list_menu_config_f5492d2547c33d10a440c789826d4323</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_menu_config_f5492d2547c33d10a440c789826d4323">75492d2547c33d10a440c789826d4325</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 10:59:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

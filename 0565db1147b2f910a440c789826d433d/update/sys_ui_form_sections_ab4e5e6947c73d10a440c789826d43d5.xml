@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ab4e5e6947c73d10a440c789826d43d5" sys_domain="global" table="x_1151148_car_park_service_events" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 14:47:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af4e9e6947c73d10a440c789826d4349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1151148_car_park_service_events" name="x_1151148_car_park_service_events" sys_domain="global" view="8e4eda6920c73d10dea30476f9641bd1">ab4e5e6947c73d10a440c789826d43d5</sys_ui_form>
+            <sys_ui_section caption="Service Events[Default view]" display_value="Service Events[Default view]" name="x_1151148_car_park_service_events" sys_domain="global" view="8e4eda6920c73d10dea30476f9641bd1">af4e5e6947c73d10a440c789826d43d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 14:47:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 14:47:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>234e9e6947c73d10a440c789826d434d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1151148_car_park_service_events" name="x_1151148_car_park_service_events" sys_domain="global" view="8e4eda6920c73d10dea30476f9641bd1">ab4e5e6947c73d10a440c789826d43d5</sys_ui_form>
+            <sys_ui_section caption="Event Schedule" display_value="Event Schedule" name="x_1151148_car_park_service_events" sys_domain="global" view="8e4eda6920c73d10dea30476f9641bd1">634e9e6947c73d10a440c789826d434c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 14:47:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 14:47:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af4e9e6947c73d10a440c789826d434f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1151148_car_park_service_events" name="x_1151148_car_park_service_events" sys_domain="global" view="8e4eda6920c73d10dea30476f9641bd1">ab4e5e6947c73d10a440c789826d43d5</sys_ui_form>
+            <sys_ui_section caption="Who performs the event" display_value="Who performs the event" name="x_1151148_car_park_service_events" sys_domain="global" view="8e4eda6920c73d10dea30476f9641bd1">ef4e9e6947c73d10a440c789826d434e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 14:47:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1151148_car_park_service_events</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 14:47:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab4e5e6947c73d10a440c789826d43d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1151148_car_park_service_events</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ab4e5e6947c73d10a440c789826d43d5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 14:47:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace My Car Park 0" name="workspace-my-car-park-0">8e4eda6920c73d10dea30476f9641bd1</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

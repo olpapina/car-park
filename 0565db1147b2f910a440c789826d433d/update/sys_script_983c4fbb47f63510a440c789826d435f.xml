@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1151148_car_park_service_events</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Service Events When repeated field date</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// rightnow stores the current time
+	var rightnow = new GlideDateTime();
+	// Create a GlideDateTime object for the When repeated date
+	var whenRepeated = new GlideDateTime(current.when_repeated);
+
+	// Get the date portion of rightnow and When repeated (no timestamp)
+	var today = rightnow.getLocalDate();
+	var istoday = whenRepeated.getLocalDate();
+	// Compare today and istoday to see if they are the same day
+	if(today.compareTo(istoday) == 0){
+		gs.addErrorMessage("You cannot submit Service Events requests for today. Please, select When repeated date in the future");
+		current.setAbortAction(true);
+	}
+	// If the When repeated date is before rightnow, do not write the record to the database
+	// Output an error message to the screen
+	else if (whenRepeated.before(rightnow)){
+		gs.addErrorMessage("When repeated date cannot be in the past.  Your request has not been saved to the database.");
+		current.setAbortAction(true);
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 07:46:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>983c4fbb47f63510a440c789826d435f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Service Events When repeated field date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_script_983c4fbb47f63510a440c789826d435f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 08:55:26</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=983c4fbb47f63510a440c789826d435f"/>
+</record_update>

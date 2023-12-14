@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="Car Park">9e124e285c8bf51013f31f1fa61f5c96</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 10:10:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>de124e28a38bf510fc086f794031da86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_page_property_de124e28a38bf510fc086f794031da86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 10:10:19</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1151148_car_park.9e124e285c8bf51013f31f1fa61f5c96.root.wbApplicabilityConfigId</unique_name>
+        <value>d7128e28478bf510a440c789826d4392</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=de124e28a38bf510fc086f794031da86"/>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Car Park">3849e925c9c33d109e25256a01d9e417</dashboard>
+        <group/>
+        <role display_value="x_1151148_car_park.user" name="x_1151148_car_park.user">1165db1147b2f910a440c789826d4352</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 10:55:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71492d2547c33d10a440c789826d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3849e925c9c33d109e25256a01d9e417</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>par_dashboard_permission_71492d2547c33d10a440c789826d4310</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 10:55:44</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

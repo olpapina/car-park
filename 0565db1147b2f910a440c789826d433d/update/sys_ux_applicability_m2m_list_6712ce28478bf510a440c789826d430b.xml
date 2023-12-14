@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app car-park">d7128e28478bf510a440c789826d4392</applicability>
+        <list display_value="All">e312ce28478bf510a440c789826d4309</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 10:10:20</sys_created_on>
+        <sys_id>6712ce28478bf510a440c789826d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_6712ce28478bf510a440c789826d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 10:10:20</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

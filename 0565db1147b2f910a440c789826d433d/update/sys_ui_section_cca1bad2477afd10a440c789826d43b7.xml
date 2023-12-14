@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Service Events[Default view]" section_id="cca1bad2477afd10a440c789826d43b7" sys_domain="global" table="x_1151148_car_park_service_events" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>car</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-04 07:11:58</sys_created_on>
+            <sys_id>a3e2f45b47b67110a440c789826d4396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Events[Default view]" display_value="Service Events[Default view]" name="x_1151148_car_park_service_events" sys_domain="global" view="Default view">cca1bad2477afd10a440c789826d43b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-04 07:11:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>summary</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-04 07:11:58</sys_created_on>
+            <sys_id>abe2f45b47b67110a440c789826d4396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Events[Default view]" display_value="Service Events[Default view]" name="x_1151148_car_park_service_events" sys_domain="global" view="Default view">cca1bad2477afd10a440c789826d43b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-04 07:11:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-04 07:11:58</sys_created_on>
+            <sys_id>afe2f45b47b67110a440c789826d4396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Events[Default view]" display_value="Service Events[Default view]" name="x_1151148_car_park_service_events" sys_domain="global" view="Default view">cca1bad2477afd10a440c789826d43b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-04 07:11:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Service Events[Default view]</caption>
+            <header>false</header>
+            <name>x_1151148_car_park_service_events</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-01 13:51:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cca1bad2477afd10a440c789826d43b7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_1151148_car_park_service_events</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+            <sys_update_name>sys_ui_section_cca1bad2477afd10a440c789826d43b7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-03 11:09:41</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

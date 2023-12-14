@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_suggestion_reader_sys_suggestion_reader_group">
+    <m2m_sys_suggestion_reader_sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <reader_requested_fields/>
+        <reader_searchable_fields/>
+        <sys_class_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:48:16</sys_created_on>
+        <sys_id>6e6b287d5bba3d10089ad87fe40d71b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_suggestion_reader_group_id display_value="Search-based Suggested Results Reader Group for Starter Workspace AI Search Configuration">6a6b287d26ba3d101de651c6fc2497b9</sys_suggestion_reader_group_id>
+        <sys_suggestion_reader_id display_value="Search Based Suggestion Reader">c41365e077020110be280d892c5a99f2</sys_suggestion_reader_id>
+        <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_6e6b287d5bba3d10089ad87fe40d71b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:48:16</sys_updated_on>
+    </m2m_sys_suggestion_reader_sys_suggestion_reader_group>
+</record_update>

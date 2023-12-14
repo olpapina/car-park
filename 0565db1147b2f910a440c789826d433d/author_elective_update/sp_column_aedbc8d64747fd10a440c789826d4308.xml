@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">62dbc8d64747fd10a440c789826d4306</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:03:00</sys_created_on>
+        <sys_id>aedbc8d64747fd10a440c789826d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sp_column_aedbc8d64747fd10a440c789826d4308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:03:00</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sp_column_aedbc8d64747fd10a440c789826d4308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">62dbc8d64747fd10a440c789826d4306</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-13 12:03:00</sys_created_on><sys_id>aedbc8d64747fd10a440c789826d4308</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sp_column_aedbc8d64747fd10a440c789826d4308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-13 12:03:00</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>76134049</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:03:00</sys_created_on>
+        <sys_id>26db049a4747fd10a440c789826d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c630f10b30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:03:00</sys_updated_on>
+        <type>Column</type>
+        <update_guid>e6dbc8d6bf47fd10624a1e2571ade10a</update_guid>
+        <update_guid_history>e6dbc8d6bf47fd10624a1e2571ade10a:76134049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">de0c4cd64747fd10a440c789826d435f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:03:48</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0ae2b2482a0e4810a4352640684b2640</sys_id>
+        <sys_metadata>aedbc8d64747fd10a440c789826d4308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sp_column_aedbc8d64747fd10a440c789826d4308</sys_update_name>
+        <sys_update_version display_value="sp_column_aedbc8d64747fd10a440c789826d4308">26db049a4747fd10a440c789826d4395</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:03:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

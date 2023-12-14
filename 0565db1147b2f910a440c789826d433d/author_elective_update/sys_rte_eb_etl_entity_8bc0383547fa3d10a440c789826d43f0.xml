@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="DELETE">
+        <child_id_field/>
+        <name>Target_x_1151148_car_park_car_brand</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>x_1151148_car_park_car_brand</path>
+        <run_business_rules>true</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:11:46</sys_created_on>
+        <sys_id>8bc0383547fa3d10a440c789826d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target_x_1151148_car_park_car_brand</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Car Brand Data Mapping_etl_ihub">07c0383547fa3d10a440c789826d43c6</sys_rte_eb_definition>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_8bc0383547fa3d10a440c789826d43f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:11:46</sys_updated_on>
+        <table>x_1151148_car_park_car_brand</table>
+    </sys_rte_eb_etl_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_rte_eb_etl_entity_8bc0383547fa3d10a440c789826d43f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity"><sys_rte_eb_etl_entity action="INSERT_OR_UPDATE"><child_id_field/><name>Target_x_1151148_car_park_car_brand</name><parent_entity/><parent_id_field/><path>x_1151148_car_park_car_brand</path><run_business_rules>true</run_business_rules><synchronize_inserts>false</synchronize_inserts><sys_class_name>sys_rte_eb_etl_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 15:11:46</sys_created_on><sys_id>8bc0383547fa3d10a440c789826d43f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Target_x_1151148_car_park_car_brand</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_rte_eb_definition display_value="Car Brand Data Mapping_etl_ihub">07c0383547fa3d10a440c789826d43c6</sys_rte_eb_definition><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_rte_eb_etl_entity_8bc0383547fa3d10a440c789826d43f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 15:11:46</sys_updated_on><table>x_1151148_car_park_car_brand</table></sys_rte_eb_etl_entity></record_update>]]></payload>
+        <payload_hash>-954594472</payload_hash>
+        <record_name>Target_x_1151148_car_park_car_brand</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:11:46</sys_created_on>
+        <sys_id>17c0383547fa3d10a440c789826d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1ba2d84b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:11:46</sys_updated_on>
+        <type>ETL Entity</type>
+        <update_guid>5bc03835f8fa3d10791c3a50819025f1</update_guid>
+        <update_guid_history>5bc03835f8fa3d10791c3a50819025f1:-954594472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-01 07:30:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_entity">sys_rte_eb_etl_entity</sys_db_object>
+        <sys_id>1d9035b362284eb4a054efb7c64b2810</sys_id>
+        <sys_metadata>8bc0383547fa3d10a440c789826d43f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target_x_1151148_car_park_car_brand</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_entity_8bc0383547fa3d10a440c789826d43f0</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_entity_8bc0383547fa3d10a440c789826d43f0">17c0383547fa3d10a440c789826d43f2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-01 07:30:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

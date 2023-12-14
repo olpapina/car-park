@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Car Brand Data Mapping</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1151148_car_park_ihub_import_b2c0bc3147fa3d10a440c789826d4356</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:14:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9271747547fa3d10a440c789826d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Brand Data Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_app_module_9271747547fa3d10a440c789826d43bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:14:42</sys_updated_on>
+        <timeline_page/>
+        <title>Car Brand Data Mapping</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_app_module_9271747547fa3d10a440c789826d43bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Car Brand Data Mapping</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1151148_car_park_ihub_import_b2c0bc3147fa3d10a440c789826d4356</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 15:14:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9271747547fa3d10a440c789826d43bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Car Brand Data Mapping</sys_name><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_app_module_9271747547fa3d10a440c789826d43bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 15:14:42</sys_updated_on><timeline_page/><title>Car Brand Data Mapping</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2065583647</payload_hash>
+        <record_name>Car Brand Data Mapping</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:14:42</sys_created_on>
+        <sys_id>5671747547fa3d10a440c789826d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1ba58aa90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:14:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9a71747553fa3d1085556cdc5f23e8be</update_guid>
+        <update_guid_history>9a71747553fa3d1085556cdc5f23e8be:2065583647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Car Brand Data Mapping">4767021647b6fd10a440c789826d4338</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:47:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>27b3707c74074b30addae12d8515ce44</sys_id>
+        <sys_metadata>9271747547fa3d10a440c789826d43bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Brand Data Mapping</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_app_module_9271747547fa3d10a440c789826d43bd</sys_update_name>
+        <sys_update_version display_value="sys_app_module_9271747547fa3d10a440c789826d43bd">5671747547fa3d10a440c789826d43bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:47:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

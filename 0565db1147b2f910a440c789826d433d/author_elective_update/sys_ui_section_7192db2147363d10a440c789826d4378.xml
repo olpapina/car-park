@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="7192db2147363d10a440c789826d4378" sys_domain="global" table="x_1151148_car_park_bmw_model" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bmwmodel</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 14:58:07</sys_created_on>
+            <sys_id>9fade83147fa3d10a440c789826d4328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151148_car_park_bmw_model" sys_domain="global" view="Default view">7192db2147363d10a440c789826d4378</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 14:58:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 14:58:07</sys_created_on>
+            <sys_id>93ade83147fa3d10a440c789826d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151148_car_park_bmw_model" sys_domain="global" view="Default view">7192db2147363d10a440c789826d4378</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 14:58:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brand</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 14:58:07</sys_created_on>
+            <sys_id>97ade83147fa3d10a440c789826d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151148_car_park_bmw_model" sys_domain="global" view="Default view">7192db2147363d10a440c789826d4378</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 14:58:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1151148_car_park_bmw_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 08:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7192db2147363d10a440c789826d4378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1151148_car_park_bmw_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+            <sys_update_name>sys_ui_section_7192db2147363d10a440c789826d4378</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 08:20:10</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ui_section_7192db2147363d10a440c789826d4378</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="7192db2147363d10a440c789826d4378" sys_domain="global" table="x_1151148_car_park_bmw_model" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>bmwmodel</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 14:58:07</sys_created_on><sys_id>9fade83147fa3d10a440c789826d4328</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1151148_car_park_bmw_model" sys_domain="global" view="Default view">7192db2147363d10a440c789826d4378</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 14:58:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 14:58:07</sys_created_on><sys_id>93ade83147fa3d10a440c789826d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1151148_car_park_bmw_model" sys_domain="global" view="Default view">7192db2147363d10a440c789826d4378</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 14:58:07</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>brand</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 14:58:07</sys_created_on><sys_id>97ade83147fa3d10a440c789826d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1151148_car_park_bmw_model" sys_domain="global" view="Default view">7192db2147363d10a440c789826d4378</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 14:58:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1151148_car_park_bmw_model</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 08:20:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7192db2147363d10a440c789826d4378</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1151148_car_park_bmw_model</sys_name><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_ui_section_7192db2147363d10a440c789826d4378</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 08:20:10</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>649654295</payload_hash>
+        <record_name>BMW Model</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:58:07</sys_created_on>
+        <sys_id>d7ade83147fa3d10a440c789826d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1b965a5c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:58:07</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>9fade8316afa3d1052b3a16715ebe92a</update_guid>
+        <update_guid_history>9fade8316afa3d1052b3a16715ebe92a:649654295,e5422f25bf763d10f27256763441a209:1405405020,3192db2194363d10861a76e65be3dd7d:2013507757,7192db2169363d104621f77bd6f5c07b:759535503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:40:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>217f7ca9d01644e08a0e0e7356d5d100</sys_id>
+        <sys_metadata>7192db2147363d10a440c789826d4378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1151148_car_park_bmw_model</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent display_value="">1c92d36147363d10a440c789826d43d9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7192db2147363d10a440c789826d4378</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7192db2147363d10a440c789826d4378">d7ade83147fa3d10a440c789826d432b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:40:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

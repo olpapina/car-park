@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7f3c489a4747fd10a440c789826d432a</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Table Reference">1dbb29f147001200ba13a5554ee49014</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:12:12</sys_created_on>
+        <sys_id>59fd441e4747fd10a440c789826d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sp_instance_table_59fd441e4747fd10a440c789826d4395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:12:12</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=59fd441e4747fd10a440c789826d4395"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sp_instance_table_59fd441e4747fd10a440c789826d4395</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">7f3c489a4747fd10a440c789826d432a</sp_column><sp_page/><sp_widget display_value="Table Reference">1dbb29f147001200ba13a5554ee49014</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-13 12:12:12</sys_created_on><sys_id>59fd441e4747fd10a440c789826d4395</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sp_instance_table_59fd441e4747fd10a440c789826d4395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-13 12:12:12</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=59fd441e4747fd10a440c789826d4395"/></record_update>]]></payload>
+        <payload_hash>-2006179858</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:12:12</sys_created_on>
+        <sys_id>1dfd441e4747fd10a440c789826d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c63177ab40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:12:12</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>11fd441e2d47fd10778e85b89598b797</update_guid>
+        <update_guid_history>11fd441e2d47fd10778e85b89598b797:-2006179858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">073e405e4747fd10a440c789826d437b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 12:13:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>399276f6196440c0a7d371725d3c2900</sys_id>
+        <sys_metadata>59fd441e4747fd10a440c789826d4395</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sp_instance_table_59fd441e4747fd10a440c789826d4395</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_59fd441e4747fd10a440c789826d4395">1dfd441e4747fd10a440c789826d4397</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 12:13:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

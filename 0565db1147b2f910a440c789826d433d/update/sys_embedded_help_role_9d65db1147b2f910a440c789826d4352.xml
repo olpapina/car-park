@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1151148_car_park.user" name="x_1151148_car_park.user">1165db1147b2f910a440c789826d4352</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-28 13:53:56</sys_created_on>
+        <sys_id>9d65db1147b2f910a440c789826d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1165db1147b2f910a440c789826d4352</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9d65db1147b2f910a440c789826d4352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-28 13:53:56</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

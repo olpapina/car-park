@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 08:16:35</sys_created_on>
+        <sys_id>25c1d32147363d10a440c789826d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1151148_car_park_toyota_model.x_1151148_car_park.service manager</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_security_acl display_value="x_1151148_car_park_toyota_model">a9c1d32147363d10a440c789826d4396</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_25c1d32147363d10a440c789826d4399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 08:16:35</sys_updated_on>
+        <sys_user_role display_value="x_1151148_car_park.service manager" name="x_1151148_car_park.service manager">1165db1147b2f910a440c789826d434c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_security_acl_role_25c1d32147363d10a440c789826d4399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 08:16:35</sys_created_on><sys_id>25c1d32147363d10a440c789826d4399</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1151148_car_park_toyota_model.x_1151148_car_park.service manager</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_security_acl display_value="x_1151148_car_park_toyota_model">a9c1d32147363d10a440c789826d4396</sys_security_acl><sys_update_name>sys_security_acl_role_25c1d32147363d10a440c789826d4399</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 08:16:35</sys_updated_on><sys_user_role display_value="x_1151148_car_park.service manager" name="x_1151148_car_park.service manager">1165db1147b2f910a440c789826d434c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-405663459</payload_hash>
+        <record_name>x_1151148_car_park_toyota_model.x_1151148_car_park.service manager</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 08:16:35</sys_created_on>
+        <sys_id>69c1d32147363d10a440c789826d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1a26bc7d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 08:16:35</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>adc1d32130363d10aa3510c28ac9959a</update_guid>
+        <update_guid_history>adc1d32130363d10aa3510c28ac9959a:-405663459</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1151148_car_park_toyota_model.x_1151148_car_park.service manager">df376cf547ba3d10a440c789826d43de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:29:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>180908fc38db4ca282d5005f1e68e344</sys_id>
+        <sys_metadata>25c1d32147363d10a440c789826d4399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1151148_car_park_toyota_model.x_1151148_car_park.service manager</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent display_value="">a9c1d32147363d10a440c789826d4396</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_25c1d32147363d10a440c789826d4399</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_25c1d32147363d10a440c789826d4399">69c1d32147363d10a440c789826d439b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:29:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

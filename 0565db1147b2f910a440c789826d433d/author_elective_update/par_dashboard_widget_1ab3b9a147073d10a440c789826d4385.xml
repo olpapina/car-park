@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">254ce169edc33d1030d17480e822b634</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Approval","sourceType":"table","tableOrViewName":"sysapproval_approver","filterQuery":"approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=requested","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3MDIyOTgwMzA1ODk=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"My approvals","showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3MDIyOTgwMzA1ODk=","id":"ZEdGaWJHVnplWE5oY0hCeWIzWmhiRjloY0hCeWIzWmxjakUzTURJeU9UZ3dNekExT0RrPTE3MDIyOTgwMzEzODA=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","noDebounce":""}</component_props>
+        <h>11</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 11:41:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ab3b9a147073d10a440c789826d4385</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>par_dashboard_widget_1ab3b9a147073d10a440c789826d4385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 12:34:17</sys_updated_on>
+        <visualization/>
+        <w>18</w>
+        <widget_props/>
+        <x>0</x>
+        <y>27</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>par_dashboard_widget_1ab3b9a147073d10a440c789826d4385</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">254ce169edc33d1030d17480e822b634</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Approval","sourceType":"table","tableOrViewName":"sysapproval_approver","filterQuery":"approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=requested","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3MDIyOTgwMzA1ODk=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"My approvals","showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGVzeXNhcHByb3ZhbF9hcHByb3ZlcjE3MDIyOTgwMzA1ODk=","id":"ZEdGaWJHVnplWE5oY0hCeWIzWmhiRjloY0hCeWIzWmxjakUzTURJeU9UZ3dNekExT0RrPTE3MDIyOTgwMzEzODA=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","noDebounce":""}</component_props><h>11</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 11:41:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ab3b9a147073d10a440c789826d4385</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>par_dashboard_widget_1ab3b9a147073d10a440c789826d4385</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 12:34:17</sys_updated_on><visualization/><w>18</w><widget_props/><x>0</x><y>27</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-618623574</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 12:34:17</sys_created_on>
+        <sys_id>11dff1e147473d10a440c789826d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c58defa940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 12:34:17</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>95dff1e128473d1091b63f759460716a</update_guid>
+        <update_guid_history>95dff1e128473d1091b63f759460716a:-618623574,d6b3b9a12d073d10a0ac68a25a61cc86:-2034180857</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ecd607b5474f7d10a440c789826d437f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 12:22:55</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0777a79b2e4b463383b733e2da828c49</sys_id>
+        <sys_metadata>1ab3b9a147073d10a440c789826d4385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_1ab3b9a147073d10a440c789826d4385</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_1ab3b9a147073d10a440c789826d4385">11dff1e147473d10a440c789826d436b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 12:22:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

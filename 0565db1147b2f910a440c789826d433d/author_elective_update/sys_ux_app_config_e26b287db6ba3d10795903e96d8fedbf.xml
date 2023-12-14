@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description>Volkswagen Model</description>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Car Park App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:48:15</sys_created_on>
+        <sys_id>e26b287db6ba3d10795903e96d8fedbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Park App Config</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_app_config_e26b287db6ba3d10795903e96d8fedbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:48:15</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ux_app_config_e26b287db6ba3d10795903e96d8fedbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description>Volkswagen Model</description><disable_auto_reflow>false</disable_auto_reflow><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>Car Park App Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 14:48:15</sys_created_on><sys_id>e26b287db6ba3d10795903e96d8fedbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Car Park App Config</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_ux_app_config_e26b287db6ba3d10795903e96d8fedbf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 14:48:15</sys_updated_on></sys_ux_app_config></record_update>]]></payload>
+        <payload_hash>240635787</payload_hash>
+        <record_name>Car Park App Config</record_name>
+        <reverted_from/>
+        <source>c3ae1a0347223110a440c789826d437e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-11-21 10:08:31</sys_created_on>
+        <sys_id>b1ab60bd47ba3d10a440c789826d4348</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18bf15a55180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Configuration</type>
+        <update_guid>71ab60bdc3ba3d1064bb3c0a1b82c648</update_guid>
+        <update_guid_history>71ab60bdc3ba3d1064bb3c0a1b82c648:240635787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:49:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>1f6574569fdd4628910506d37288a040</sys_id>
+        <sys_metadata>e26b287db6ba3d10795903e96d8fedbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Park App Config</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_e26b287db6ba3d10795903e96d8fedbf</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_e26b287db6ba3d10795903e96d8fedbf">b1ab60bd47ba3d10a440c789826d4348</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:49:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

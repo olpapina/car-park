@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>A default view for Car Park generated</description>
+        <name>view</name>
+        <page display_value="">3049e92555c33d102d9e4473f851cf1f</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 10:55:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3849e92546c33d105034b9bc09f27c0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_page_property_3849e92546c33d105034b9bc09f27c0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 10:55:42</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1151148_car_park.3049e92555c33d102d9e4473f851cf1f.root.view</unique_name>
+        <value>workspace-car-park-2</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ux_page_property_3849e92546c33d105034b9bc09f27c0e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>A default view for Car Park generated</description><name>view</name><page display_value="">3049e92555c33d102d9e4473f851cf1f</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 10:55:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3849e92546c33d105034b9bc09f27c0e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>view</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_ux_page_property_3849e92546c33d105034b9bc09f27c0e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 10:55:42</sys_updated_on><type>string</type><unique_name>x_1151148_car_park.3049e92555c33d102d9e4473f851cf1f.root.view</unique_name><value>workspace-car-park-2</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1898382628</payload_hash>
+        <record_name>view</record_name>
+        <reverted_from/>
+        <source>c3ae1a0347223110a440c789826d437e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-11-21 10:08:31</sys_created_on>
+        <sys_id>511aed6547c33d10a440c789826d43cb</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18bf15a55180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>111aed651cc33d10f29285b473ae29cb</update_guid>
+        <update_guid_history>111aed651cc33d10f29285b473ae29cb:1898382628</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 10:59:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>52d53c0effce4050844969059d0c0100</sys_id>
+        <sys_metadata>3849e92546c33d105034b9bc09f27c0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_3849e92546c33d105034b9bc09f27c0e</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_3849e92546c33d105034b9bc09f27c0e">511aed6547c33d10a440c789826d43cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 10:59:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

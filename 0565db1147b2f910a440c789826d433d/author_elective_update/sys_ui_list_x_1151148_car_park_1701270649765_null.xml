@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1151148_car_park_1701270649765" version="2" view="">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1151148_car_park_1701270649765</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>e190f03547fa3d10a440c789826d439d</sys_id>
+            <sys_mod_count/>
+            <sys_name>x_1151148_car_park_1701270649765</sys_name>
+            <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2023-11-29 15:11:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ui_list_x_1151148_car_park_1701270649765_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1151148_car_park_1701270649765" version="2" view=""><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1151148_car_park_1701270649765</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>e190f03547fa3d10a440c789826d439d</sys_id><sys_mod_count/><sys_name>x_1151148_car_park_1701270649765</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2023-11-29 15:11:12</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1913158489</payload_hash>
+        <record_name>x_1151148_car_park_1701270649765</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:11:12</sys_created_on>
+        <sys_id>72a0743547fa3d10a440c789826d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1ba2529a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:11:12</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>b6a074353ffa3d10100142ba8c56206f</update_guid>
+        <update_guid_history>b6a074353ffa3d10100142ba8c56206f:1913158489</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 07:36:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>b9a24c901b574b4094cdba50a6fa0400</sys_id>
+        <sys_metadata>05ea11da47b2fd10a440c789826d43c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1151148_car_park_1701270649765</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent display_value="">7cea11da47b2fd10a440c789826d43ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1151148_car_park_1701270649765_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1151148_car_park_1701270649765_null">72a0743547fa3d10a440c789826d4370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 07:36:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

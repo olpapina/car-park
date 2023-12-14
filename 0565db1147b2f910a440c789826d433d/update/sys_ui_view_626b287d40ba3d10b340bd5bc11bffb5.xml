@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-car-park-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 14:48:16</sys_created_on>
+        <sys_id>626b287d40ba3d10b340bd5bc11bffb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Car Park 0</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ui_view_626b287d40ba3d10b340bd5bc11bffb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 14:48:16</sys_updated_on>
+        <title>Workspace Car Park 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

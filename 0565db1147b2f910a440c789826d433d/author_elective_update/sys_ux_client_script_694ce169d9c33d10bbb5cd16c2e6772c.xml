@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record Default">2d4ce169a7c33d107124bd67c0df6d2c</macroponent>
+        <name>viewport_gph/initiallyCollapsed</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 11:08:51</sys_created_on>
+        <sys_id>694ce169d9c33d10bbb5cd16c2e6772c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_client_script_694ce169d9c33d10bbb5cd16c2e6772c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 11:08:51</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ux_client_script_694ce169d9c33d10bbb5cd16c2e6772c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Record Default"&gt;2d4ce169a7c33d107124bd67c0df6d2c&lt;/macroponent&gt;&lt;name&gt;viewport_gph/initiallyCollapsed&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-11 11:08:51&lt;/sys_created_on&gt;&lt;sys_id&gt;694ce169d9c33d10bbb5cd16c2e6772c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;viewport_gph/initiallyCollapsed&lt;/sys_name&gt;&lt;sys_package display_value="Car Park" source="x_1151148_car_park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_694ce169d9c33d10bbb5cd16c2e6772c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-11 11:08:51&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2058792447</payload_hash>
+        <record_name>viewport_gph/initiallyCollapsed</record_name>
+        <reverted_from/>
+        <source>c3ae1a0347223110a440c789826d437e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-11-21 10:08:31</sys_created_on>
+        <sys_id>f2394779474f7d10a440c789826d43a6</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18bf15a55180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Client Script</type>
+        <update_guid>b2394779f44f7d1024f4e6d4672821a6</update_guid>
+        <update_guid_history>b2394779f44f7d1024f4e6d4672821a6:2058792447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 12:33:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>88410a2e98f2471aa7eb0da1e1b0fea9</sys_id>
+        <sys_metadata>694ce169d9c33d10bbb5cd16c2e6772c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_694ce169d9c33d10bbb5cd16c2e6772c</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_694ce169d9c33d10bbb5cd16c2e6772c">f2394779474f7d10a440c789826d43a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 12:33:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

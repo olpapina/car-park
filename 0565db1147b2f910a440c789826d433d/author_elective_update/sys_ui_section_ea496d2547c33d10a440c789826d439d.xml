@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Who performs the event" section_id="ea496d2547c33d10a440c789826d439d" sys_domain="global" table="x_1151148_car_park_service_events" version="3" view="workspace-car-park-2">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>self_service_work</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 10:55:47</sys_created_on>
+            <sys_id>26496d2547c33d10a440c789826d43a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Who performs the event" display_value="Who performs the event" name="x_1151148_car_park_service_events" sys_domain="global" view="3449e9259ac33d10f580675718171c15">ea496d2547c33d10a440c789826d439d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 10:55:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 10:55:47</sys_created_on>
+            <sys_id>2a496d2547c33d10a440c789826d43a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Who performs the event" display_value="Who performs the event" name="x_1151148_car_park_service_events" sys_domain="global" view="3449e9259ac33d10f580675718171c15">ea496d2547c33d10a440c789826d439d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 10:55:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Who performs the event</caption>
+            <header>false</header>
+            <name>x_1151148_car_park_service_events</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 10:55:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea496d2547c33d10a440c789826d439d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1151148_car_park_service_events</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+            <sys_update_name>sys_ui_section_ea496d2547c33d10a440c789826d439d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 10:55:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Car Park 2" name="workspace-car-park-2">3449e9259ac33d10f580675718171c15</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ui_section_ea496d2547c33d10a440c789826d439d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Who performs the event" section_id="ea496d2547c33d10a440c789826d439d" sys_domain="global" table="x_1151148_car_park_service_events" version="3" view="workspace-car-park-2"><sys_ui_element action="INSERT_OR_UPDATE"><element>self_service_work</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 10:55:47</sys_created_on><sys_id>26496d2547c33d10a440c789826d43a0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Who performs the event" display_value="Who performs the event" name="x_1151148_car_park_service_events" sys_domain="global" view="3449e9259ac33d10f580675718171c15">ea496d2547c33d10a440c789826d439d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 10:55:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>manager</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 10:55:47</sys_created_on><sys_id>2a496d2547c33d10a440c789826d43a0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Who performs the event" display_value="Who performs the event" name="x_1151148_car_park_service_events" sys_domain="global" view="3449e9259ac33d10f580675718171c15">ea496d2547c33d10a440c789826d439d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 10:55:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Who performs the event</caption><header>false</header><name>x_1151148_car_park_service_events</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 10:55:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ea496d2547c33d10a440c789826d439d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1151148_car_park_service_events</sys_name><sys_overrides/><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_ui_section_ea496d2547c33d10a440c789826d439d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 10:55:47</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace Car Park 2" name="workspace-car-park-2">3449e9259ac33d10f580675718171c15</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1979990402</payload_hash>
+        <record_name>Service Events</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 10:55:47</sys_created_on>
+        <sys_id>2a496d2547c33d10a440c789826d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5884cd570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 10:55:47</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>ae496d258ec33d10960eb1329beb7db0</update_guid>
+        <update_guid_history>ae496d258ec33d10960eb1329beb7db0:-1979990402</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 20:20:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5c60ab10f1134732b754f0656706a7e4</sys_id>
+        <sys_metadata>ea496d2547c33d10a440c789826d439d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Who performs the event</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent display_value="Service Events">b391321a477afd10a440c789826d43b0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ea496d2547c33d10a440c789826d439d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ea496d2547c33d10a440c789826d439d">2a496d2547c33d10a440c789826d43b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 20:20:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

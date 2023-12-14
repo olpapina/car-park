@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b06e040f47323110a440c789826d43cd" label="Сar accidents" max_length="40" name="x_1151148_car_park_ar_accident" type="collection">
+        <element label="Car VIN" max_length="32" name="car_vin" reference="x_1151148_car_park_cars" type="reference"/>
+        <element label="Description " max_length="40" name="description" type="string"/>
+        <element label="Other Car" max_length="32" name="other_car" reference="x_1151148_car_park_cars" type="reference"/>
+        <element choice="1" label="Punishment" max_length="40" name="punishment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fine" sequence="0" value="fine"/>
+                <element inactive_on_update="false" label="Resolution" sequence="1" value="resolution"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Article of the law" max_length="200" name="u_string_2" type="string"/>
+        <element label="When happened" mandatory="true" max_length="255" name="when_happened" type="glide_date_time"/>
+        <index name="index">
+            <element name="car_vin"/>
+        </index>
+        <index name="index2">
+            <element name="other_car"/>
+        </index>
+    </element>
+</database>

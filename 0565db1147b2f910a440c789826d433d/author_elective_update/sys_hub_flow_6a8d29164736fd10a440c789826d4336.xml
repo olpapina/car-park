@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_your_own_car</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.brand.brand","label":"Trigger - Record Created or Updated➛Cars Record➛Brand➛Brand","reference":"","reference_display":"Brand","type":"string","base_type":"string","parent_table_name":"x_1151148_car_park_car_brand","column_name":"brand"},{"name":"Created or Updated_1.current.brand","label":"Trigger - Record Created or Updated➛Cars Record➛Brand","reference":"x_1151148_car_park_car_brand","reference_display":"Brand","type":"reference","base_type":"reference","parent_table_name":"x_1151148_car_park_cars","column_name":"brand"},{"name":"Created or Updated_1.current.model","label":"Trigger - Record Created or Updated➛Cars Record➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_1151148_car_park_cars","column_name":"model"},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Cars Table","reference":"x_1151148_car_park_cars","reference_display":"Cars","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"flow_variable.brand","label":"Flow Variables➛Brand","reference":"x_1151148_car_park_car_brand","reference_display":"Car Brand","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a9e5333c-c788-4214-9cb0-cf831829cc43"}},{"name":"flow_variable.volkswagen_model.volkswagen_model","label":"Flow Variables➛Volkswagen model➛Volkswagen model","reference":"","reference_display":"Volkswagen model","type":"string","base_type":"string","parent_table_name":"x_1151148_car_park_volkswagen_model","column_name":"volkswagen_model"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Create your own car</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles name="x_1151148_car_park.user">1165db1147b2f910a440c789826d4352</run_with_roles>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 08:54:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a8d29164736fd10a440c789826d4336</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create your own car</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_hub_flow_6a8d29164736fd10a440c789826d4336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=6a8d29164736fd10a440c789826d4336"/>
+    <sys_variable_value action="DELETE" query="document_key=6a8d29164736fd10a440c789826d4336"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=6a8d29164736fd10a440c789826d4336^sys_idNOT IN64b0ce9a4776fd10a440c789826d432b"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create your own car">6a8d29164736fd10a440c789826d4336</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>64b0ce9a4776fd10a440c789826d432b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=64b0ce9a4776fd10a440c789826d432b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>64b0ce9a4776fd10a440c789826d432b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>28b0ce9a4776fd10a440c789826d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>64b0ce9a4776fd10a440c789826d432b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>a8b0ce9a4776fd10a440c789826d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <value>x_1151148_car_park_cars</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>64b0ce9a4776fd10a440c789826d432b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>e4b0ce9a4776fd10a440c789826d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=64b0ce9a4776fd10a440c789826d432b"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=6a8d29164736fd10a440c789826d4336"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=6a8d29164736fd10a440c789826d4336^sys_idNOT IN628d29164736fd10a440c789826d4337"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>6a8d29164736fd10a440c789826d4336</id>
+        <name>Create your own car</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 08:54:06</sys_created_on>
+        <sys_id>628d29164736fd10a440c789826d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 08:54:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=628d29164736fd10a440c789826d4337"/>
+    <sys_hub_flow_input action="DELETE" query="model=6a8d29164736fd10a440c789826d4336^sys_idNOT IN64b0ce9a4776fd10a440c789826d431e,a4b0ce9a4776fd10a440c789826d4326,ecb0ce9a4776fd10a440c789826d4322"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create your own car">6a8d29164736fd10a440c789826d4336</model>
+        <model_id>6a8d29164736fd10a440c789826d4336</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>64b0ce9a4776fd10a440c789826d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=64b0ce9a4776fd10a440c789826d431e"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create your own car">6a8d29164736fd10a440c789826d4336</model>
+        <model_id>6a8d29164736fd10a440c789826d4336</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>a4b0ce9a4776fd10a440c789826d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=a4b0ce9a4776fd10a440c789826d4326"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create your own car">6a8d29164736fd10a440c789826d4336</model>
+        <model_id>6a8d29164736fd10a440c789826d4336</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>ecb0ce9a4776fd10a440c789826d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=ecb0ce9a4776fd10a440c789826d4322"/>
+    <sys_hub_flow_output action="DELETE" query="model=6a8d29164736fd10a440c789826d4336"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=6a8d29164736fd10a440c789826d4336"/>
+    <sys_hub_action_instance action="DELETE" query="flow=6a8d29164736fd10a440c789826d4336"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=6a8d29164736fd10a440c789826d4336^sys_idNOT IN38b0ce9a4776fd10a440c789826d4345,3cb0ce9a4776fd10a440c789826d43a3"/>
+    <sys_hub_sub_flow_instance action="DELETE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create your own car">6a8d29164736fd10a440c789826d4336</flow>
+        <inputs/>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Create Record Activity">753fb2a11b730010affd0e55cc4bcbaa</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>38b0ce9a4776fd10a440c789826d4345</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <ui_id>1b0c5b0d-67bc-4c00-b6d1-29267c2db0ba</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="DELETE" query="document_key=38b0ce9a4776fd10a440c789826d4345"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>38b0ce9a4776fd10a440c789826d4345</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>30b0ce9a4776fd10a440c789826d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <value>x_1151148_car_park_cars</value>
+        <variable display_value="Table">f93fb2a11b730010affd0e55cc4bcbdd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>38b0ce9a4776fd10a440c789826d4345</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>34b0ce9a4776fd10a440c789826d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">30b0ce9a4776fd10a440c789826d4347</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=38b0ce9a4776fd10a440c789826d4345"/>
+    <sys_element_mapping action="DELETE">
+        <field>fields</field>
+        <id>38b0ce9a4776fd10a440c789826d4345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>f8b0ce9a4776fd10a440c789826d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa</table>
+        <value>brand={{flow_variable.brand}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>fields_to_show_after_creation</field>
+        <id>38b0ce9a4776fd10a440c789826d4345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>f0b0ce9a4776fd10a440c789826d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa</table>
+        <value>{{Created or Updated_1.current.brand.brand}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>38b0ce9a4776fd10a440c789826d4345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>bcb0ce9a4776fd10a440c789826d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>wait_for_completion</field>
+        <id>38b0ce9a4776fd10a440c789826d4345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>b0b0ce9a4776fd10a440c789826d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_38b0ce9a4776fd10a440c789826d4345</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_sub_flow_instance_inputs_38b0ce9a4776fd10a440c789826d4345^id=38b0ce9a4776fd10a440c789826d4345"/>
+    <sys_hub_sub_flow_instance_inputs action="DELETE" query="model=38b0ce9a4776fd10a440c789826d4345^sys_idNOT IN30b0ce9a4776fd10a440c789826d4347"/>
+    <sys_hub_sub_flow_instance_inputs action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">38b0ce9a4776fd10a440c789826d4345</model>
+        <model_id>38b0ce9a4776fd10a440c789826d4345</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_38b0ce9a4776fd10a440c789826d4345</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>30b0ce9a4776fd10a440c789826d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="DELETE" query="instance=38b0ce9a4776fd10a440c789826d4345^sys_idNOT IN74b0ce9a4776fd10a440c789826d438e"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>false</active>
+        <input_name>fields_to_show_after_creation</input_name>
+        <instance>38b0ce9a4776fd10a440c789826d4345</instance>
+        <referenced_table>sys_hub_sub_flow_instance</referenced_table>
+        <script>{"fields_to_show_after_creation":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>74b0ce9a4776fd10a440c789826d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_sub_flow_instance action="DELETE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create your own car">6a8d29164736fd10a440c789826d4336</flow>
+        <inputs/>
+        <inputs/>
+        <order>3</order>
+        <parent_ui_id>682b997a-14da-4abd-985d-3489f42a536a</parent_ui_id>
+        <subflow display_value="Create Record Activity">753fb2a11b730010affd0e55cc4bcbaa</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>3cb0ce9a4776fd10a440c789826d43a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <ui_id>b3183f1c-89fb-416a-908b-9a859d6631be</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="DELETE" query="document_key=3cb0ce9a4776fd10a440c789826d43a3"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>3cb0ce9a4776fd10a440c789826d43a3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>78b0ce9a4776fd10a440c789826d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">f4b0ce9a4776fd10a440c789826d43a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>3cb0ce9a4776fd10a440c789826d43a3</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>bcb0ce9a4776fd10a440c789826d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <value>x_1151148_car_park_volkswagen_model</value>
+        <variable display_value="Table">f93fb2a11b730010affd0e55cc4bcbdd</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=3cb0ce9a4776fd10a440c789826d43a3"/>
+    <sys_element_mapping action="DELETE">
+        <field>fields</field>
+        <id>3cb0ce9a4776fd10a440c789826d43a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>78b0ce9a4776fd10a440c789826d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa</table>
+        <value>volkswagen_model={{Created or Updated_1.current.model}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>3cb0ce9a4776fd10a440c789826d43a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>3cb0ce9a4776fd10a440c789826d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>wait_for_completion</field>
+        <id>3cb0ce9a4776fd10a440c789826d43a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>f4b0ce9a4776fd10a440c789826d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_3cb0ce9a4776fd10a440c789826d43a3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_sub_flow_instance_inputs_3cb0ce9a4776fd10a440c789826d43a3^id=3cb0ce9a4776fd10a440c789826d43a3"/>
+    <sys_hub_sub_flow_instance_inputs action="DELETE" query="model=3cb0ce9a4776fd10a440c789826d43a3^sys_idNOT INf4b0ce9a4776fd10a440c789826d43a4"/>
+    <sys_hub_sub_flow_instance_inputs action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">3cb0ce9a4776fd10a440c789826d43a3</model>
+        <model_id>3cb0ce9a4776fd10a440c789826d43a3</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_3cb0ce9a4776fd10a440c789826d43a3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>f4b0ce9a4776fd10a440c789826d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="DELETE" query="instance=3cb0ce9a4776fd10a440c789826d43a3"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=6a8d29164736fd10a440c789826d4336^sys_idNOT INb4b0ce9a4776fd10a440c789826d439e"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">b8b0ce9a4776fd10a440c789826d439d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create your own car">6a8d29164736fd10a440c789826d4336</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>b4b0ce9a4776fd10a440c789826d439e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <ui_id>682b997a-14da-4abd-985d-3489f42a536a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=b4b0ce9a4776fd10a440c789826d439e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b4b0ce9a4776fd10a440c789826d439e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>74b0ce9a4776fd10a440c789826d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <value>check brand</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_variable_6a8d29164736fd10a440c789826d4336^id=b4b0ce9a4776fd10a440c789826d439e"/>
+    <sys_element_mapping action="DELETE" query="id=b4b0ce9a4776fd10a440c789826d439e"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>b4b0ce9a4776fd10a440c789826d439e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>f0b0ce9a4776fd10a440c789826d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created or Updated_1.current.brand}}=Volkswagen</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>condition_name</field>
+        <id>b4b0ce9a4776fd10a440c789826d439e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:49</sys_created_on>
+        <sys_id>30b0ce9a4776fd10a440c789826d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=b4b0ce9a4776fd10a440c789826d439e"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=b4b0ce9a4776fd10a440c789826d439e"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=6a8d29164736fd10a440c789826d4336"/>
+    <sys_hub_flow_variable action="DELETE" query="model=6a8d29164736fd10a440c789826d4336^sys_idNOT IN60b0ce9a4776fd10a440c789826d433b,60b0ce9a4776fd10a440c789826d4340"/>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a9e5333c-c788-4214-9cb0-cf831829cc43</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1151148_car_park_car_brand</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>brand</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Brand</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create your own car">6a8d29164736fd10a440c789826d4336</model>
+        <model_id>6a8d29164736fd10a440c789826d4336</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_6a8d29164736fd10a440c789826d4336</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1151148_car_park_car_brand">x_1151148_car_park_car_brand</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>60b0ce9a4776fd10a440c789826d433b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8f490582-fff8-4ccb-95df-98678b510d3f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1151148_car_park_volkswagen_model</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>volkswagen_model</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Volkswagen model</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create your own car">6a8d29164736fd10a440c789826d4336</model>
+        <model_id>6a8d29164736fd10a440c789826d4336</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_6a8d29164736fd10a440c789826d4336</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1151148_car_park_volkswagen_model">x_1151148_car_park_volkswagen_model</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>60b0ce9a4776fd10a440c789826d4340</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336^sys_idNOT IN20b0ce9a4776fd10a440c789826d4322,68b0ce9a4776fd10a440c789826d4328,e4b0ce9a4776fd10a440c789826d4325"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>20b0ce9a4776fd10a440c789826d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>68b0ce9a4776fd10a440c789826d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:48</sys_created_on>
+        <sys_id>e4b0ce9a4776fd10a440c789826d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_6a8d29164736fd10a440c789826d4336"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_6a8d29164736fd10a440c789826d4336"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=6a8d29164736fd10a440c789826d4336"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=6a8d29164736fd10a440c789826d4336"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_hub_flow_6a8d29164736fd10a440c789826d4336</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;create_your_own_car&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created or Updated_1.current.brand.brand","label":"Trigger - Record Created or Updated➛Cars Record➛Brand➛Brand","reference":"","reference_display":"Brand","type":"string","base_type":"string","parent_table_name":"x_1151148_car_park_car_brand","column_name":"brand"},{"name":"Created or Updated_1.current.brand","label":"Trigger - Record Created or Updated➛Cars Record➛Brand","reference":"x_1151148_car_park_car_brand","reference_display":"Brand","type":"reference","base_type":"reference","parent_table_name":"x_1151148_car_park_cars","column_name":"brand"},{"name":"Created or Updated_1.current.model","label":"Trigger - Record Created or Updated➛Cars Record➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_1151148_car_park_cars","column_name":"model"},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Cars Table","reference":"x_1151148_car_park_cars","reference_display":"Cars","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"flow_variable.brand","label":"Flow Variables➛Brand","reference":"x_1151148_car_park_car_brand","reference_display":"Car Brand","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a9e5333c-c788-4214-9cb0-cf831829cc43"}},{"name":"flow_variable.volkswagen_model.volkswagen_model","label":"Flow Variables➛Volkswagen model➛Volkswagen model","reference":"","reference_display":"Volkswagen model","type":"string","base_type":"string","parent_table_name":"x_1151148_car_park_volkswagen_model","column_name":"volkswagen_model"}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Create your own car&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles name="x_1151148_car_park.user"&gt;1165db1147b2f910a440c789826d4352&lt;/run_with_roles&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 08:54:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6a8d29164736fd10a440c789826d4336&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create your own car&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Car Park" source="x_1151148_car_park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_6a8d29164736fd10a440c789826d4336&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=6a8d29164736fd10a440c789826d4336^sys_idNOT IN64b0ce9a4776fd10a440c789826d432b"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;64b0ce9a4776fd10a440c789826d432b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=64b0ce9a4776fd10a440c789826d432b"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;64b0ce9a4776fd10a440c789826d432b&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;28b0ce9a4776fd10a440c789826d432c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;value&gt;every&lt;/value&gt;&lt;variable display_value="Run Trigger"&gt;2b9def50c31132002841b63b12d3ae5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;64b0ce9a4776fd10a440c789826d432b&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a8b0ce9a4776fd10a440c789826d4339&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;value&gt;x_1151148_car_park_cars&lt;/value&gt;&lt;variable display_value="Table"&gt;cf1e1980c32222002841b63b12d3aea0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;64b0ce9a4776fd10a440c789826d432b&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;e4b0ce9a4776fd10a440c789826d4339&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;707dd180c32222002841b63b12d3aecb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=64b0ce9a4776fd10a440c789826d432b"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=6a8d29164736fd10a440c789826d4336^sys_idNOT IN628d29164736fd10a440c789826d4337"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6a8d29164736fd10a440c789826d4336&lt;/id&gt;&lt;name&gt;Create your own car&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 08:54:06&lt;/sys_created_on&gt;&lt;sys_id&gt;628d29164736fd10a440c789826d4337&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 08:54:06&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=628d29164736fd10a440c789826d4337"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=6a8d29164736fd10a440c789826d4336^sys_idNOT IN64b0ce9a4776fd10a440c789826d431e,a4b0ce9a4776fd10a440c789826d4326,ecb0ce9a4776fd10a440c789826d4322"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/model&gt;&lt;model_id&gt;6a8d29164736fd10a440c789826d4336&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;64b0ce9a4776fd10a440c789826d431e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=64b0ce9a4776fd10a440c789826d431e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/model&gt;&lt;model_id&gt;6a8d29164736fd10a440c789826d4336&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a4b0ce9a4776fd10a440c789826d4326&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a4b0ce9a4776fd10a440c789826d4326"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/model&gt;&lt;model_id&gt;6a8d29164736fd10a440c789826d4336&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;ecb0ce9a4776fd10a440c789826d4322&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ecb0ce9a4776fd10a440c789826d4322"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=6a8d29164736fd10a440c789826d4336^sys_idNOT IN38b0ce9a4776fd10a440c789826d4345,3cb0ce9a4776fd10a440c789826d43a3"/&gt;&lt;sys_hub_sub_flow_instance action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/flow&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;subflow display_value="Create Record Activity"&gt;753fb2a11b730010affd0e55cc4bcbaa&lt;/subflow&gt;&lt;subflow_instance_inputs/&gt;&lt;sys_class_name&gt;sys_hub_sub_flow_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;38b0ce9a4776fd10a440c789826d4345&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;1b0c5b0d-67bc-4c00-b6d1-29267c2db0ba&lt;/ui_id&gt;&lt;/sys_hub_sub_flow_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=38b0ce9a4776fd10a440c789826d4345"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_sub_flow_instance&lt;/document&gt;&lt;document_key&gt;38b0ce9a4776fd10a440c789826d4345&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;30b0ce9a4776fd10a440c789826d4390&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;value&gt;x_1151148_car_park_cars&lt;/value&gt;&lt;variable display_value="Table"&gt;f93fb2a11b730010affd0e55cc4bcbdd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_sub_flow_instance&lt;/document&gt;&lt;document_key&gt;38b0ce9a4776fd10a440c789826d4345&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;34b0ce9a4776fd10a440c789826d439d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Wait For Completion"&gt;30b0ce9a4776fd10a440c789826d4347&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=38b0ce9a4776fd10a440c789826d4345"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;fields&lt;/field&gt;&lt;id&gt;38b0ce9a4776fd10a440c789826d4345&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;f8b0ce9a4776fd10a440c789826d438f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa&lt;/table&gt;&lt;value&gt;brand={{flow_variable.brand}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;fields_to_show_after_creation&lt;/field&gt;&lt;id&gt;38b0ce9a4776fd10a440c789826d4345&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;f0b0ce9a4776fd10a440c789826d438f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa&lt;/table&gt;&lt;value&gt;{{Created or Updated_1.current.brand.brand}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;38b0ce9a4776fd10a440c789826d4345&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;bcb0ce9a4776fd10a440c789826d438f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;wait_for_completion&lt;/field&gt;&lt;id&gt;38b0ce9a4776fd10a440c789826d4345&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;b0b0ce9a4776fd10a440c789826d439d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_sub_flow_instance_inputs_38b0ce9a4776fd10a440c789826d4345&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_38b0ce9a4776fd10a440c789826d4345^id=38b0ce9a4776fd10a440c789826d4345"/&gt;&lt;sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=38b0ce9a4776fd10a440c789826d4345^sys_idNOT IN30b0ce9a4776fd10a440c789826d4347"/&gt;&lt;sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;wait_for_completion&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Wait For Completion&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value=""&gt;38b0ce9a4776fd10a440c789826d4345&lt;/model&gt;&lt;model_id&gt;38b0ce9a4776fd10a440c789826d4345&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_logic_ext_input&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_sub_flow_instance_inputs_38b0ce9a4776fd10a440c789826d4345&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_sub_flow_instance_inputs&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;30b0ce9a4776fd10a440c789826d4347&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_sub_flow_instance_inputs&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=38b0ce9a4776fd10a440c789826d4345^sys_idNOT IN74b0ce9a4776fd10a440c789826d438e"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;input_name&gt;fields_to_show_after_creation&lt;/input_name&gt;&lt;instance&gt;38b0ce9a4776fd10a440c789826d4345&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_sub_flow_instance&lt;/referenced_table&gt;&lt;script&gt;{"fields_to_show_after_creation":{"scriptActive":false}}&lt;/script&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;74b0ce9a4776fd10a440c789826d438e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_sub_flow_instance action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/flow&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;682b997a-14da-4abd-985d-3489f42a536a&lt;/parent_ui_id&gt;&lt;subflow display_value="Create Record Activity"&gt;753fb2a11b730010affd0e55cc4bcbaa&lt;/subflow&gt;&lt;subflow_instance_inputs/&gt;&lt;sys_class_name&gt;sys_hub_sub_flow_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;3cb0ce9a4776fd10a440c789826d43a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;b3183f1c-89fb-416a-908b-9a859d6631be&lt;/ui_id&gt;&lt;/sys_hub_sub_flow_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3cb0ce9a4776fd10a440c789826d43a3"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_sub_flow_instance&lt;/document&gt;&lt;document_key&gt;3cb0ce9a4776fd10a440c789826d43a3&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;78b0ce9a4776fd10a440c789826d43b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Wait For Completion"&gt;f4b0ce9a4776fd10a440c789826d43a4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_sub_flow_instance&lt;/document&gt;&lt;document_key&gt;3cb0ce9a4776fd10a440c789826d43a3&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;bcb0ce9a4776fd10a440c789826d43b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;value&gt;x_1151148_car_park_volkswagen_model&lt;/value&gt;&lt;variable display_value="Table"&gt;f93fb2a11b730010affd0e55cc4bcbdd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=3cb0ce9a4776fd10a440c789826d43a3"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;fields&lt;/field&gt;&lt;id&gt;3cb0ce9a4776fd10a440c789826d43a3&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;78b0ce9a4776fd10a440c789826d43b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa&lt;/table&gt;&lt;value&gt;volkswagen_model={{Created or Updated_1.current.model}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;3cb0ce9a4776fd10a440c789826d43a3&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;3cb0ce9a4776fd10a440c789826d43b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_input_753fb2a11b730010affd0e55cc4bcbaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;wait_for_completion&lt;/field&gt;&lt;id&gt;3cb0ce9a4776fd10a440c789826d43a3&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;f4b0ce9a4776fd10a440c789826d43b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_sub_flow_instance_inputs_3cb0ce9a4776fd10a440c789826d43a3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_3cb0ce9a4776fd10a440c789826d43a3^id=3cb0ce9a4776fd10a440c789826d43a3"/&gt;&lt;sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=3cb0ce9a4776fd10a440c789826d43a3^sys_idNOT INf4b0ce9a4776fd10a440c789826d43a4"/&gt;&lt;sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;wait_for_completion&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Wait For Completion&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value=""&gt;3cb0ce9a4776fd10a440c789826d43a3&lt;/model&gt;&lt;model_id&gt;3cb0ce9a4776fd10a440c789826d43a3&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_logic_ext_input&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_sub_flow_instance_inputs_3cb0ce9a4776fd10a440c789826d43a3&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_sub_flow_instance_inputs&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;f4b0ce9a4776fd10a440c789826d43a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_sub_flow_instance_inputs&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=3cb0ce9a4776fd10a440c789826d43a3"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=6a8d29164736fd10a440c789826d4336^sys_idNOT INb4b0ce9a4776fd10a440c789826d439e"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;b8b0ce9a4776fd10a440c789826d439d&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;b4b0ce9a4776fd10a440c789826d439e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;682b997a-14da-4abd-985d-3489f42a536a&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b4b0ce9a4776fd10a440c789826d439e"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;b4b0ce9a4776fd10a440c789826d439e&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;74b0ce9a4776fd10a440c789826d43a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;value&gt;check brand&lt;/value&gt;&lt;variable display_value="Condition Label"&gt;f0af19c1c32632002841b63b12d3aea3&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6a8d29164736fd10a440c789826d4336^id=b4b0ce9a4776fd10a440c789826d439e"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=b4b0ce9a4776fd10a440c789826d439e"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition&lt;/field&gt;&lt;id&gt;b4b0ce9a4776fd10a440c789826d439e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;f0b0ce9a4776fd10a440c789826d43a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value&gt;{{Created or Updated_1.current.brand}}=Volkswagen&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition_name&lt;/field&gt;&lt;id&gt;b4b0ce9a4776fd10a440c789826d439e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;30b0ce9a4776fd10a440c789826d43a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b4b0ce9a4776fd10a440c789826d439e"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=b4b0ce9a4776fd10a440c789826d439e"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=6a8d29164736fd10a440c789826d4336^sys_idNOT IN60b0ce9a4776fd10a440c789826d433b,60b0ce9a4776fd10a440c789826d4340"/&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a9e5333c-c788-4214-9cb0-cf831829cc43&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;x_1151148_car_park_car_brand&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;brand&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Brand&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/model&gt;&lt;model_id&gt;6a8d29164736fd10a440c789826d4336&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_6a8d29164736fd10a440c789826d4336&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_1151148_car_park_car_brand"&gt;x_1151148_car_park_car_brand&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;60b0ce9a4776fd10a440c789826d433b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8f490582-fff8-4ccb-95df-98678b510d3f&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;x_1151148_car_park_volkswagen_model&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;volkswagen_model&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Volkswagen model&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Create your own car"&gt;6a8d29164736fd10a440c789826d4336&lt;/model&gt;&lt;model_id&gt;6a8d29164736fd10a440c789826d4336&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_6a8d29164736fd10a440c789826d4336&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_1151148_car_park_volkswagen_model"&gt;x_1151148_car_park_volkswagen_model&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;60b0ce9a4776fd10a440c789826d4340&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336^sys_idNOT IN20b0ce9a4776fd10a440c789826d4322,68b0ce9a4776fd10a440c789826d4328,e4b0ce9a4776fd10a440c789826d4325"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;20b0ce9a4776fd10a440c789826d4322&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Car Park" source="x_1151148_car_park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;68b0ce9a4776fd10a440c789826d4328&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Car Park" source="x_1151148_car_park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-01 10:17:48&lt;/sys_created_on&gt;&lt;sys_id&gt;e4b0ce9a4776fd10a440c789826d4325&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Car Park" source="x_1151148_car_park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-01 10:17:48&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=6a8d29164736fd10a440c789826d4336"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=6a8d29164736fd10a440c789826d4336"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>662558961</payload_hash>
+        <record_name>Create your own car</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:17:50</sys_created_on>
+        <sys_id>c9b0ce9a4776fd10a440c789826d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c24e2761b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:17:50</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>41b0ce9a3c76fd101525a7034d89b8de</update_guid>
+        <update_guid_history>41b0ce9a3c76fd101525a7034d89b8de:662558961,e68d2916e136fd10754176370689a43b:-1100030457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 10:29:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>50aac9bed29d4defb4f1db449fc890c1</sys_id>
+        <sys_metadata>6a8d29164736fd10a440c789826d4336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create your own car</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_6a8d29164736fd10a440c789826d4336</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_6a8d29164736fd10a440c789826d4336">c9b0ce9a4776fd10a440c789826d43de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 10:29:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>A default view for My Car Park generated</description>
+        <name>view</name>
+        <page display_value="My Car Park">8a4eda69f7c73d10f0de4641d289c8db</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 14:47:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>824eda6935c73d108a81fb9002c55ecb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_page_property_824eda6935c73d108a81fb9002c55ecb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 14:47:20</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1151148_car_park.8a4eda69f7c73d10f0de4641d289c8db.root.view</unique_name>
+        <value>workspace-my-car-park-0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=824eda6935c73d108a81fb9002c55ecb"/>
+</record_update>

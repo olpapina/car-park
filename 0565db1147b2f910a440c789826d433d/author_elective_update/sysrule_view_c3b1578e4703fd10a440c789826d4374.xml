@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Service Manager View</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 07:53:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c3b1578e4703fd10a440c789826d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Manager View</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sysrule_view_c3b1578e4703fd10a440c789826d4374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 07:53:02</sys_updated_on>
+        <table>x_1151148_car_park_service_events</table>
+        <view>Manager view</view>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sysrule_view_c3b1578e4703fd10a440c789826d4374</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;Service Manager View&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-13 07:53:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c3b1578e4703fd10a440c789826d4374&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Service Manager View&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Car Park" source="x_1151148_car_park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_c3b1578e4703fd10a440c789826d4374&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-13 07:53:02&lt;/sys_updated_on&gt;&lt;table&gt;x_1151148_car_park_service_events&lt;/table&gt;&lt;view&gt;Manager view&lt;/view&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-832768296</payload_hash>
+        <record_name>Service Manager View</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 07:53:02</sys_created_on>
+        <sys_id>30a257ce4703fd10a440c789826d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c622a34b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 07:53:02</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>f0a257ced003fd1055758116ee5f95fb</update_guid>
+        <update_guid_history>f0a257ced003fd1055758116ee5f95fb:-832768296</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 08:01:19</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>1f42cd62c6e84d948e69a2a886fd6310</sys_id>
+        <sys_metadata>c3b1578e4703fd10a440c789826d4374</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Manager View</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent display_value="Service Events">b391321a477afd10a440c789826d43b0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sysrule_view_c3b1578e4703fd10a440c789826d4374</sys_update_name>
+        <sys_update_version display_value="sysrule_view_c3b1578e4703fd10a440c789826d4374">30a257ce4703fd10a440c789826d43fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 08:01:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

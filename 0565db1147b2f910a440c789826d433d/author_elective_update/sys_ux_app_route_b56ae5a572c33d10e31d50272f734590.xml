@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config/>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>All Dashboards</name>
+        <optional_parameters>filter</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>all-dashboards</route_type>
+        <screen_type display_value="All Dashboards">b16ae5a500c33d108b760eb2b9f50291</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 11:00:41</sys_created_on>
+        <sys_id>b56ae5a572c33d10e31d50272f734590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Dashboards</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_ux_app_route_b56ae5a572c33d10e31d50272f734590</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 11:00:41</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=b56ae5a572c33d10e31d50272f734590"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_ux_app_route_b56ae5a572c33d10e31d50272f734590</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config/><description/><extension_point/><fields/><icon/><name>All Dashboards</name><optional_parameters>filter</optional_parameters><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>all-dashboards</route_type><screen_type display_value="All Dashboards">b16ae5a500c33d108b760eb2b9f50291</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 11:00:41</sys_created_on><sys_id>b56ae5a572c33d10e31d50272f734590</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All Dashboards</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_ux_app_route_b56ae5a572c33d10e31d50272f734590</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 11:00:41</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=b56ae5a572c33d10e31d50272f734590"/></record_update>]]></payload>
+        <payload_hash>68053988</payload_hash>
+        <record_name>All Dashboards</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 11:05:41</sys_created_on>
+        <sys_id>678b252947c33d10a440c789826d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c588ddeca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 11:05:41</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>278b252992c33d10995488e127e07758</update_guid>
+        <update_guid_history>278b252992c33d10995488e127e07758:68053988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 12:39:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>00a4fb782f0247c480020ac78bab4f51</sys_id>
+        <sys_metadata>b56ae5a572c33d10e31d50272f734590</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Dashboards</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_b56ae5a572c33d10e31d50272f734590</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_b56ae5a572c33d10e31d50272f734590">678b252947c33d10a440c789826d4358</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 12:39:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

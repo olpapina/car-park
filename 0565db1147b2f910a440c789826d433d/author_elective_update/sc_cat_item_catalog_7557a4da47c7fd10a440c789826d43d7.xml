@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Create Service Event">0ce1e41647c7fd10a440c789826d43d6</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 14:03:05</sys_created_on>
+        <sys_id>7557a4da47c7fd10a440c789826d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create Service Event</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_7557a4da47c7fd10a440c789826d43d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 14:03:05</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sc_cat_item_catalog_7557a4da47c7fd10a440c789826d43d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create Service Event">0ce1e41647c7fd10a440c789826d43d6</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-13 14:03:05</sys_created_on><sys_id>7557a4da47c7fd10a440c789826d43d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Create Service Event</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sc_cat_item_catalog_7557a4da47c7fd10a440c789826d43d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-13 14:03:05</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>852952268</payload_hash>
+        <record_name>Service Catalog.Create Service Event</record_name>
+        <reverted_from/>
+        <source>1165db1147b2f910a440c789826d4342</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 14:03:05</sys_created_on>
+        <sys_id>7557a4da47c7fd10a440c789826d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c637d012d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 14:03:05</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b557a4da13c7fd100bc7c91bf4b8a2d9</update_guid>
+        <update_guid_history>b557a4da13c7fd100bc7c91bf4b8a2d9:852952268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Create Service Event">0558a81e47c7fd10a440c789826d436a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 14:07:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>8611dc42c6d74dc7b355367f51330e09</sys_id>
+        <sys_metadata>7557a4da47c7fd10a440c789826d43d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create Service Event</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent display_value="Create Service Event">0ce1e41647c7fd10a440c789826d43d6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_7557a4da47c7fd10a440c789826d43d7</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_7557a4da47c7fd10a440c789826d43d7">7557a4da47c7fd10a440c789826d43da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 14:07:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d27e861e47b6fd10a440c789826d43b8" label="Car Model" max_length="40" name="x_1151148_car_park_car_models" type="collection">
+        <element attributes="encode_utf8=false" label="Brand" max_length="32" name="brand" reference="x_1151148_car_park_car_brand" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Model" max_length="40" name="model" type="string"/>
+        <index name="index">
+            <element name="brand"/>
+        </index>
+    </element>
+</database>

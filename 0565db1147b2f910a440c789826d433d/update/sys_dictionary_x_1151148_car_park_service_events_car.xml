@@ -23,7 +23,8 @@
         <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
+        <dynamic_creation_script>if (g_user.hasRole('x_1151148_car_park.user') {&#13;
+</dynamic_creation_script>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>car</element>
@@ -58,7 +59,7 @@
         <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
         <sys_update_name>sys_dictionary_x_1151148_car_park_service_events_car</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-03 14:21:03</sys_updated_on>
+        <sys_updated_on>2023-12-15 11:41:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -4,7 +4,7 @@
         <application display_value="Car Park">436451d247b2fd10a440c789826d4388</application>
         <assessment/>
         <device_type/>
-        <filter table="x_1151148_car_park_service_events">car.ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="car.owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        <filter table="x_1151148_car_park_cars">ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -12,9 +12,9 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title> My Service Events</mobile_title>
+        <mobile_title>Add New Car</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1151148_car_park_service_events</name>
+        <name>x_1151148_car_park_cars</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -22,21 +22,21 @@
         <roles>x_1151148_car_park.user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-04 06:16:18</sys_created_on>
+        <sys_created_on>2023-12-15 13:36:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f2052cd747767110a440c789826d4310</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>My Service Events</sys_name>
+        <sys_id>77133a7e47c7b150a440c789826d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Select Your Car</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
-        <sys_update_name>sys_app_module_f2052cd747767110a440c789826d4310</sys_update_name>
+        <sys_update_name>sys_app_module_77133a7e47c7b150a440c789826d43ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-15 13:36:33</sys_updated_on>
+        <sys_updated_on>2023-12-15 13:36:58</sys_updated_on>
         <timeline_page/>
-        <title>My Service Events</title>
+        <title>Select Your Car</title>
         <uncancelable>false</uncancelable>
         <view_name>default_view</view_name>
         <window_name/>

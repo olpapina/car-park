@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for_default>true</available_for_default>
+        <available_for_filter>true</available_for_filter>
+        <available_for_ref_qual>true</available_for_ref_qual>
+        <field_type/>
+        <label>Only user cars VIN</label>
+        <order/>
+        <roles>x_1151148_car_park.user</roles>
+        <script/>
+        <script_reference_id/>
+        <script_reference_table/>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 09:53:28</sys_created_on>
+        <sys_id>1a21c6b24707b150a440c789826d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Only user cars VIN</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_1a21c6b24707b150a440c789826d4374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 09:53:28</sys_updated_on>
+        <table>x_1151148_car_park_cars</table>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+</record_update>

@@ -4,21 +4,21 @@
         <description>Number of days a Car accidens after it should be automatically deleted</description>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_1151148_car_park.autoDeleteCarAccident</name>
+        <name>x_1151148_car_park.autoDeactivateCarAccident</name>
         <read_roles>x_1151148_car_park.admin</read_roles>
-        <suffix>autoDeleteCarAccident</suffix>
+        <suffix>autoDeactivateCarAccident</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-13 22:44:25</sys_created_on>
         <sys_id>066c565647033150a440c789826d4382</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1151148_car_park.autoDeleteCarAccident</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1151148_car_park.autoDeactivateCarAccident</sys_name>
         <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
         <sys_update_name>sys_properties_066c565647033150a440c789826d4382</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-13 22:44:25</sys_updated_on>
+        <sys_updated_on>2023-12-18 09:08:37</sys_updated_on>
         <type>string</type>
         <value>365</value>
         <write_roles>x_1151148_car_park.admin</write_roles>

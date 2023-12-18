@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_next_experience_content">
+    <sys_notification_next_experience_content action="INSERT_OR_UPDATE">
+        <action_name/>
+        <action_payload/>
+        <active>true</active>
+        <is_default>false</is_default>
+        <message/>
+        <message_heading><![CDATA[New car accident for you - 
+Punishment: ${punishment} for 
+Car VIN Brand: ${car_vin.brand}
+Car VIN Model: ${car_vin.model}
+Car VIN VIN number: ${car_vin.number}]]></message_heading>
+        <name>Car Accident Notification</name>
+        <notification display_value="Create New Car accident notification">aad45977470fb550a440c789826d4397</notification>
+        <route display_value="Next Experience Route">bccd1214533201107cd3ddeeff7b1289</route>
+        <sys_class_name>sys_notification_next_experience_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 09:38:55</sys_created_on>
+        <sys_id>2d7a99bf470fb550a440c789826d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Accident Notification</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_notification_next_experience_content_2d7a99bf470fb550a440c789826d435b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 09:38:55</sys_updated_on>
+        <use_action>false</use_action>
+    </sys_notification_next_experience_content>
+</record_update>

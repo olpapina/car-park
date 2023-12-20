@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Create Service Event">0ce1e41647c7fd10a440c789826d43d6</cat_item>
+        <cat_item display_value="Add the New Car">b6bd0b0c471b3950a440c789826d43c4</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -21,44 +21,43 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>car</field>
+        <field>year_of_manufacture</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
-        <instructions><![CDATA[<p>Select  VIN number one of your cars</p>]]></instructions>
+        <instructions><![CDATA[<p>Enter date of manufacture of your new car</p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label>number</lookup_label>
+        <lookup_label/>
         <lookup_price/>
-        <lookup_table>x_1151148_car_park_cars</lookup_table>
+        <lookup_table/>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>number</lookup_value>
+        <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>select_your_car_vin_number</name>
-        <order>200</order>
+        <name>year_of_manufacture</name>
+        <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Select your car VIN number</question_text>
+        <question_text>Enter Year of manufacture</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1151148_car_park_service_events</record_producer_table>
-        <reference>x_1151148_car_park_cars</reference>
-        <reference_qual>ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe</reference_qual>
-        <reference_qual_condition table="x_1151148_car_park_cars">ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-        </reference_qual_condition>
+        <record_producer_table>x_1151148_car_park_cars</record_producer_table>
+        <reference/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -76,19 +75,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-13 14:01:24</sys_created_on>
-        <sys_id>e8a5645a47c7fd10a440c789826d43e5</sys_id>
+        <sys_created_on>2023-12-19 12:47:26</sys_created_on>
+        <sys_id>014fcf8c471b3950a440c789826d439d</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Select your car VIN number</sys_name>
+        <sys_name>Enter Year of manufacture</sys_name>
         <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
-        <sys_update_name>item_option_new_e8a5645a47c7fd10a440c789826d43e5</sys_update_name>
+        <sys_update_name>item_option_new_014fcf8c471b3950a440c789826d439d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-19 12:31:36</sys_updated_on>
+        <sys_updated_on>2023-12-19 19:36:10</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>9</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -104,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=e8a5645a47c7fd10a440c789826d43e5"/>
-    <fx_price action="delete_multiple" query="id=e8a5645a47c7fd10a440c789826d43e5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=014fcf8c471b3950a440c789826d439d"/>
+    <fx_price action="delete_multiple" query="id=014fcf8c471b3950a440c789826d439d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price_if_checked</field>
-        <id>e8a5645a47c7fd10a440c789826d43e5</id>
+        <id>014fcf8c471b3950a440c789826d439d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-13 14:01:24</sys_created_on>
-        <sys_id>05f6ec9a47c7fd10a440c789826d4314</sys_id>
+        <sys_created_on>2023-12-19 12:47:26</sys_created_on>
+        <sys_id>c49f47cc471b3950a440c789826d4332</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-13 14:01:24</sys_updated_on>
+        <sys_updated_on>2023-12-19 12:47:26</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -127,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>rec_price_if_checked</field>
-        <id>e8a5645a47c7fd10a440c789826d43e5</id>
+        <id>014fcf8c471b3950a440c789826d439d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-13 14:01:24</sys_created_on>
-        <sys_id>01f6ec9a47c7fd10a440c789826d4313</sys_id>
+        <sys_created_on>2023-12-19 12:47:26</sys_created_on>
+        <sys_id>489f47cc471b3950a440c789826d4331</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-13 14:01:24</sys_updated_on>
+        <sys_updated_on>2023-12-19 12:47:26</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

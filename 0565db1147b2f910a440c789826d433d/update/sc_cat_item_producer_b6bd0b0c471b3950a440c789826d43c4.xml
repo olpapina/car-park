@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Create Service Event</name>
+        <name>Add the New Car</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -46,14 +46,14 @@
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
-        <picture>024c2c9047137950a440c789826d43f4</picture>
+        <picture>49f74b1c47db7950a440c789826d4397</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
 * `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></post_insert_script>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=0ce1e41647c7fd10a440c789826d43d6&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b6bd0b0c471b3950a440c789826d43c4&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
@@ -79,52 +79,52 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></script>
-        <short_description>Create Service Event for your car</short_description>
+        <short_description>Create a new car record in Car Park app</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-13 13:39:13</sys_created_on>
-        <sys_id>0ce1e41647c7fd10a440c789826d43d6</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_name>Create Service Event</sys_name>
+        <sys_created_on>2023-12-19 12:39:26</sys_created_on>
+        <sys_id>b6bd0b0c471b3950a440c789826d43c4</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>Add the New Car</sys_name>
         <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
-        <sys_update_name>sc_cat_item_producer_0ce1e41647c7fd10a440c789826d43d6</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_b6bd0b0c471b3950a440c789826d43c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-19 19:43:39</sys_updated_on>
-        <table_name>x_1151148_car_park_service_events</table_name>
+        <sys_updated_on>2023-12-20 07:27:14</sys_updated_on>
+        <table_name>x_1151148_car_park_cars</table_name>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>19</version>
+        <version>39</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=0ce1e41647c7fd10a440c789826d43d6"/>
-    <fx_price action="delete_multiple" query="id=0ce1e41647c7fd10a440c789826d43d6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6bd0b0c471b3950a440c789826d43c4"/>
+    <fx_price action="delete_multiple" query="id=b6bd0b0c471b3950a440c789826d43c4"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>0ce1e41647c7fd10a440c789826d43d6</id>
+        <id>b6bd0b0c471b3950a440c789826d43c4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-13 13:39:13</sys_created_on>
-        <sys_id>c0e1e41647c7fd10a440c789826d43dc</sys_id>
+        <sys_created_on>2023-12-19 12:39:26</sys_created_on>
+        <sys_id>76bd0b0c471b3950a440c789826d43c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-13 13:39:13</sys_updated_on>
+        <sys_updated_on>2023-12-19 12:39:26</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>

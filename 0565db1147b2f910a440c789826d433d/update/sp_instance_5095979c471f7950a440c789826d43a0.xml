@@ -6,27 +6,36 @@
         <css/>
         <glyph/>
         <id/>
-        <order>1</order>
+        <order>2</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">a94c885a4747fd10a440c789826d4397</sp_column>
+        <sp_column display_value="2">9cb29798471f7950a440c789826d433f</sp_column>
         <sp_widget display_value="Cool Clock">3a36b30b6f3631005be8583e6b3ee490</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-13 12:14:34</sys_created_on>
-        <sys_id>cc8e445e4747fd10a440c789826d43af</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2023-12-20 07:52:09</sys_created_on>
+        <sys_id>5095979c471f7950a440c789826d43a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
-        <sys_update_name>sp_instance_cc8e445e4747fd10a440c789826d43af</sys_update_name>
+        <sys_update_name>sp_instance_5095979c471f7950a440c789826d43a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-13 12:14:34</sys_updated_on>
+        <sys_updated_on>2023-12-20 07:53:08</sys_updated_on>
         <title/>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"zone": {
+		"value": "",
+		"displayValue": ""
+	},
+	"c_color": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=cc8e445e4747fd10a440c789826d43af"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5095979c471f7950a440c789826d43a0"/>
 </record_update>

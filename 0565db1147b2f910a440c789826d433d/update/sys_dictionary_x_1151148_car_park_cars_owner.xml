@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_1151148_car_park_cars</name>
         <next_element/>
@@ -58,11 +58,11 @@
         <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
         <sys_update_name>sys_dictionary_x_1151148_car_park_cars_owner</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-01 13:50:10</sys_updated_on>
+        <sys_updated_on>2023-12-19 15:17:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

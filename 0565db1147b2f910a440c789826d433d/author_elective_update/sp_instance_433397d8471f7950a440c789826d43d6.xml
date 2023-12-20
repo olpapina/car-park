@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">9cb29798471f7950a440c789826d433f</sp_column>
+        <sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 07:41:58</sys_created_on>
+        <sys_id>433397d8471f7950a440c789826d43d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>https://dev107355.service-now.com/pcp?id=search&amp;spa=1&amp;q=Maintenance%20and%20Repair</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sp_instance_433397d8471f7950a440c789826d43d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 07:46:00</sys_updated_on>
+        <title>https://dev107355.service-now.com/pcp?id=search&amp;spa=1&amp;q=Maintenance%20and%20Repair</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "https://dev107355.service-now.com/pcp?id=search&spa=1&q=Maintenance%20and%20Repair",
+		"displayValue": "https://dev107355.service-now.com/pcp?id=search&spa=1&q=Maintenance%20and%20Repair"
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "Light",
+		"displayValue": "Light"
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": ""
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=433397d8471f7950a440c789826d43d6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sp_instance_433397d8471f7950a440c789826d43d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;9cb29798471f7950a440c789826d433f&lt;/sp_column&gt;&lt;sp_widget display_value="Quick Links"&gt;dae53627530030101865ddeeff7b12be&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-20 07:41:58&lt;/sys_created_on&gt;&lt;sys_id&gt;433397d8471f7950a440c789826d43d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;https://dev107355.service-now.com/pcp?id=search&amp;amp;spa=1&amp;amp;q=Maintenance%20and%20Repair&lt;/sys_name&gt;&lt;sys_package display_value="Car Park" source="x_1151148_car_park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car Park"&gt;0565db1147b2f910a440c789826d433d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_433397d8471f7950a440c789826d43d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-20 07:46:00&lt;/sys_updated_on&gt;&lt;title&gt;https://dev107355.service-now.com/pcp?id=search&amp;amp;spa=1&amp;amp;q=Maintenance%20and%20Repair&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "https://dev107355.service-now.com/pcp?id=search&amp;spa=1&amp;q=Maintenance%20and%20Repair",
+		"displayValue": "https://dev107355.service-now.com/pcp?id=search&amp;spa=1&amp;q=Maintenance%20and%20Repair"
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "Light",
+		"displayValue": "Light"
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": ""
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=433397d8471f7950a440c789826d43d6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>895385512</payload_hash>
+        <record_name>https://dev107355.service-now.com/pcp?id=search&amp;spa=1&amp;q=Maintenance%20and%20Repair</record_name>
+        <reverted_from/>
+        <source>a222596e474f3150a440c789826d433d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 07:46:01</sys_created_on>
+        <sys_id>9e24d3d8471f7950a440c789826d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c86304b930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 07:46:01</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>5624d3d89a1f7950a2f3fbfac1251048</update_guid>
+        <update_guid_history>5624d3d89a1f7950a2f3fbfac1251048:895385512,0393531c3e1f79506213cd81d0126e5c:1876196535,db3397d8bc1f7950793bbf1750456ed7:514992343</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="https://dev107355.service-now.com/pcp?id=search&amp;spa=1&amp;q=Maintenance%20and%20Repa">2a945f1c471f7950a440c789826d43a0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 07:47:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>09f241426e4345db80ac184812b04351</sys_id>
+        <sys_metadata>433397d8471f7950a440c789826d43d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://dev107355.service-now.com/pcp?id=search&amp;spa=1&amp;q=Maintenance%20and%20Repair</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sp_instance_433397d8471f7950a440c789826d43d6</sys_update_name>
+        <sys_update_version display_value="sp_instance_433397d8471f7950a440c789826d43d6">9e24d3d8471f7950a440c789826d4348</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 07:47:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Open an Existing Record">0535d5fc475bf950a440c789826d43ab</copied_from>
+        <description>Open the 'Cars' form with id '{{invalid step_id=ab26d570479bf950a440c789826d4360.}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:52:33</sys_created_on>
+        <sys_id>af26d570479bf950a440c789826d4366</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_atf_step_af26d570479bf950a440c789826d4366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:53:55</sys_updated_on>
+        <table>x_1151148_car_park_cars</table>
+        <test display_value="Request test for Car table copy">ef261570479bf950a440c789826d434c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=af26d570479bf950a440c789826d4366"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>af26d570479bf950a440c789826d4366</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:52:33</sys_created_on>
+        <sys_id>2b26d570479bf950a440c789826d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:52:33</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">17d732a9c7a333005e5c45b881c26007</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>af26d570479bf950a440c789826d4366</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:52:33</sys_created_on>
+        <sys_id>6326d570479bf950a440c789826d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:52:33</sys_updated_on>
+        <value>x_1151148_car_park_cars</value>
+        <variable display_value="Table">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>af26d570479bf950a440c789826d4366</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:52:33</sys_created_on>
+        <sys_id>6726d570479bf950a440c789826d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:52:33</sys_updated_on>
+        <value/>
+        <variable display_value="Record">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>af26d570479bf950a440c789826d4366</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:52:33</sys_created_on>
+        <sys_id>af26d570479bf950a440c789826d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:52:33</sys_updated_on>
+        <value/>
+        <variable display_value="Selected Tab Index">c2eb56e853422110248dddeeff7b1261</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>af26d570479bf950a440c789826d4366</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:52:33</sys_created_on>
+        <sys_id>eb26d570479bf950a440c789826d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:52:33</sys_updated_on>
+        <value/>
+        <variable display_value="View">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=af26d570479bf950a440c789826d4366"/>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>af26d570479bf950a440c789826d4366</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:52:33</sys_created_on>
+        <sys_id>e726d570479bf950a440c789826d4369</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:52:34</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{step['ab26d570479bf950a440c789826d4360'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Park">0565db1147b2f910a440c789826d433d</application>
+        <file_path/>
+        <instance_id>22b23230db032850d5c911f848961954</instance_id>
+        <instance_name>dev107355</instance_name>
+        <name>sys_atf_step_af26d570479bf950a440c789826d4366</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Open an Existing Record">0535d5fc475bf950a440c789826d43ab</copied_from><description>Open the 'Cars' form with id '{{invalid step_id=ab26d570479bf950a440c789826d4360.}}'</description><display_name>Open an Existing Record</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 11:52:33</sys_created_on><sys_id>af26d570479bf950a440c789826d4366</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Open an Existing Record</sys_name><sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package><sys_policy/><sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope><sys_update_name>sys_atf_step_af26d570479bf950a440c789826d4366</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 11:53:55</sys_updated_on><table>x_1151148_car_park_cars</table><test display_value="Request test for Car table copy">ef261570479bf950a440c789826d434c</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=af26d570479bf950a440c789826d4366"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>af26d570479bf950a440c789826d4366</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 11:52:33</sys_created_on><sys_id>2b26d570479bf950a440c789826d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 11:52:33</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">17d732a9c7a333005e5c45b881c26007</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>af26d570479bf950a440c789826d4366</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 11:52:33</sys_created_on><sys_id>6326d570479bf950a440c789826d4369</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 11:52:33</sys_updated_on><value>x_1151148_car_park_cars</value><variable display_value="Table">b124164e53a0220002c6435723dc34c5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>af26d570479bf950a440c789826d4366</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 11:52:33</sys_created_on><sys_id>6726d570479bf950a440c789826d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 11:52:33</sys_updated_on><value/><variable display_value="Record">ad351a4e53a0220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>af26d570479bf950a440c789826d4366</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 11:52:33</sys_created_on><sys_id>af26d570479bf950a440c789826d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 11:52:33</sys_updated_on><value/><variable display_value="Selected Tab Index">c2eb56e853422110248dddeeff7b1261</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>af26d570479bf950a440c789826d4366</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 11:52:33</sys_created_on><sys_id>eb26d570479bf950a440c789826d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 11:52:33</sys_updated_on><value/><variable display_value="View">6e55da4e53a0220002c6435723dc34a0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=af26d570479bf950a440c789826d4366"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>af26d570479bf950a440c789826d4366</id><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 11:52:33</sys_created_on><sys_id>e726d570479bf950a440c789826d4369</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 11:52:34</sys_updated_on><table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table><value>{{step['ab26d570479bf950a440c789826d4360'].record_id}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-270778483</payload_hash>
+        <record_name>Open an Existing Record</record_name>
+        <reverted_from/>
+        <source>a222596e474f3150a440c789826d433d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:53:55</sys_created_on>
+        <sys_id>63765d70479bf950a440c789826d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c8c399d7e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:53:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>2b765d70929bf9503ffd2a0d58dbc367</update_guid>
+        <update_guid_history>2b765d70929bf9503ffd2a0d58dbc367:-270778483,2b26d570259bf950aa1092cad1e0cc72:731616968,2f26d570419bf95095e2d213f0b5c96b:2054177852</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 11:53:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>09b216acb7134df481c8761f18fd1510</sys_id>
+        <sys_metadata>af26d570479bf950a440c789826d4366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_scope_delete display_value="">446d1359e26d49a0a96f65afa9d02810</sys_scope_delete>
+        <sys_update_name>sys_atf_step_af26d570479bf950a440c789826d4366</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_af26d570479bf950a440c789826d4366">63765d70479bf950a440c789826d4368</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 11:53:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

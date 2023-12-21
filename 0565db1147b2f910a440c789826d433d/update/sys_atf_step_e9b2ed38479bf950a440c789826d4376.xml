@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Assert a response status code is '201'</description>
+        <display_name>Assert Status Code</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Assert Status Code">2f4fa7309f132200ef4afa7dc67fcf0f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 12:47:34</sys_created_on>
+        <sys_id>e9b2ed38479bf950a440c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Status Code</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_atf_step_e9b2ed38479bf950a440c789826d4376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:47:34</sys_updated_on>
+        <table/>
+        <test display_value="Car API test - POST">2dcb9938479bf950a440c789826d435f</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e9b2ed38479bf950a440c789826d4376"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e9b2ed38479bf950a440c789826d4376</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 12:47:34</sys_created_on>
+        <sys_id>91c2617047dbf950a440c789826d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:47:34</sys_updated_on>
+        <value>201</value>
+        <variable display_value="Status code">9f5f67709f132200ef4afa7dc67fcf94</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e9b2ed38479bf950a440c789826d4376</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 12:47:34</sys_created_on>
+        <sys_id>ddc2617047dbf950a440c789826d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 12:47:34</sys_updated_on>
+        <value>equals</value>
+        <variable display_value="Operation">1d94cb1f3b8032000774229c93efc419</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2f4fa7309f132200ef4afa7dc67fcf0f^id=e9b2ed38479bf950a440c789826d4376"/>
+</record_update>

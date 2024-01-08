@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <input_filter table="sys_atf_test">nameLIKEMenu^sys_package=0565db1147b2f910a440c789826d433d^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="LIKE" or="false" value="Menu"/>
+            <item display_table="sys_package" display_value="Car Park" endquery="false" field="sys_package" goto="false" newquery="false" operator="=" or="false" value="0565db1147b2f910a440c789826d433d"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </input_filter>
+        <name>Menu modules tests - Test Suite</name>
+        <parent display_value="Car Park Test Suite">1d94a1f047dbf950a440c789826d43d8</parent>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 13:02:51</sys_created_on>
+        <sys_id>ae75e9b047dbf950a440c789826d4341</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Menu modules tests - Test Suite</sys_name>
+        <sys_package display_value="Car Park" source="x_1151148_car_park">0565db1147b2f910a440c789826d433d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Park">0565db1147b2f910a440c789826d433d</sys_scope>
+        <sys_update_name>sys_atf_test_suite_ae75e9b047dbf950a440c789826d4341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 13:06:05</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>
